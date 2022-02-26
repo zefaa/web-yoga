@@ -56,11 +56,11 @@
   "FeatureOne": {
     "description": "Auto imported from components/FeatureOne.vue"
   },
-  "FunfactWithTitle": {
-    "description": "Auto imported from components/FunfactWithTitle.vue"
-  },
   "FunFcat": {
     "description": "Auto imported from components/FunFcat.vue"
+  },
+  "FunfactWithTitle": {
+    "description": "Auto imported from components/FunfactWithTitle.vue"
   },
   "HeroFixedBanner": {
     "description": "Auto imported from components/HeroFixedBanner.vue"

@@ -2,85 +2,85 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\about.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_6549e630"
+    "_name": "_54f271bb"
   },
   {
     "name": "blog-classic",
     "path": "/blog-classic",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\blog-classic.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/blog-classic.vue",
     "chunkName": "pages/blog-classic",
-    "_name": "_b92ba0d8"
+    "_name": "_1d3abcae"
   },
   {
     "name": "blog-details",
     "path": "/blog-details",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\blog-details.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/blog-details.vue",
     "chunkName": "pages/blog-details",
-    "_name": "_328d9144"
+    "_name": "_fef3f94e"
   },
   {
     "name": "blog-grid",
     "path": "/blog-grid",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\blog-grid.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/blog-grid.vue",
     "chunkName": "pages/blog-grid",
-    "_name": "_3e1855b4"
+    "_name": "_6fabb882"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\contact-us.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/contact-us.vue",
     "chunkName": "pages/contact-us",
-    "_name": "_dacf3650"
+    "_name": "_4ac0582d"
   },
   {
     "name": "form",
     "path": "/form",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\form.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/form.vue",
     "chunkName": "pages/form",
-    "_name": "_401abd1e"
+    "_name": "_f6d60ef4"
   },
   {
     "name": "home-three",
     "path": "/home-three",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\home-three.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/home-three.vue",
     "chunkName": "pages/home-three",
-    "_name": "_883ab3c6"
+    "_name": "_740a9972"
   },
   {
     "name": "home-two",
     "path": "/home-two",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\home-two.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/home-two.vue",
     "chunkName": "pages/home-two",
-    "_name": "_5422c98b"
+    "_name": "_ba2ce3c0"
   },
   {
     "name": "project",
     "path": "/project",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\project.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/project.vue",
     "chunkName": "pages/project",
-    "_name": "_0270f0fc"
+    "_name": "_abb67472"
   },
   {
     "name": "project-details",
     "path": "/project-details",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\project-details.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/project-details.vue",
     "chunkName": "pages/project-details",
-    "_name": "_66fa5ff1"
+    "_name": "_2c438c88"
   },
   {
     "name": "service",
     "path": "/service",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\service.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/service.vue",
     "chunkName": "pages/service",
-    "_name": "_70f582d0"
+    "_name": "_6f391363"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\veDev\\\\nuxt-yoga\\\\pages\\\\index.vue",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_f5fc7e16"
+    "_name": "_74aa4c80"
   }
 ]

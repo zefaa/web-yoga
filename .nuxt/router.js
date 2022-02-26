@@ -4,18 +4,18 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _6549e630 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _b92ba0d8 = () => interopDefault(import('..\\pages\\blog-classic.vue' /* webpackChunkName: "pages/blog-classic" */))
-const _328d9144 = () => interopDefault(import('..\\pages\\blog-details.vue' /* webpackChunkName: "pages/blog-details" */))
-const _3e1855b4 = () => interopDefault(import('..\\pages\\blog-grid.vue' /* webpackChunkName: "pages/blog-grid" */))
-const _dacf3650 = () => interopDefault(import('..\\pages\\contact-us.vue' /* webpackChunkName: "pages/contact-us" */))
-const _401abd1e = () => interopDefault(import('..\\pages\\form.vue' /* webpackChunkName: "pages/form" */))
-const _883ab3c6 = () => interopDefault(import('..\\pages\\home-three.vue' /* webpackChunkName: "pages/home-three" */))
-const _5422c98b = () => interopDefault(import('..\\pages\\home-two.vue' /* webpackChunkName: "pages/home-two" */))
-const _0270f0fc = () => interopDefault(import('..\\pages\\project.vue' /* webpackChunkName: "pages/project" */))
-const _66fa5ff1 = () => interopDefault(import('..\\pages\\project-details.vue' /* webpackChunkName: "pages/project-details" */))
-const _70f582d0 = () => interopDefault(import('..\\pages\\service.vue' /* webpackChunkName: "pages/service" */))
-const _f5fc7e16 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _54f271bb = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _1d3abcae = () => interopDefault(import('../pages/blog-classic.vue' /* webpackChunkName: "pages/blog-classic" */))
+const _fef3f94e = () => interopDefault(import('../pages/blog-details.vue' /* webpackChunkName: "pages/blog-details" */))
+const _6fabb882 = () => interopDefault(import('../pages/blog-grid.vue' /* webpackChunkName: "pages/blog-grid" */))
+const _4ac0582d = () => interopDefault(import('../pages/contact-us.vue' /* webpackChunkName: "pages/contact-us" */))
+const _f6d60ef4 = () => interopDefault(import('../pages/form.vue' /* webpackChunkName: "pages/form" */))
+const _740a9972 = () => interopDefault(import('../pages/home-three.vue' /* webpackChunkName: "pages/home-three" */))
+const _ba2ce3c0 = () => interopDefault(import('../pages/home-two.vue' /* webpackChunkName: "pages/home-two" */))
+const _abb67472 = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
+const _2c438c88 = () => interopDefault(import('../pages/project-details.vue' /* webpackChunkName: "pages/project-details" */))
+const _6f391363 = () => interopDefault(import('../pages/service.vue' /* webpackChunkName: "pages/service" */))
+const _74aa4c80 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -30,51 +30,51 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _6549e630,
+    component: _54f271bb,
     name: "about"
   }, {
     path: "/blog-classic",
-    component: _b92ba0d8,
+    component: _1d3abcae,
     name: "blog-classic"
   }, {
     path: "/blog-details",
-    component: _328d9144,
+    component: _fef3f94e,
     name: "blog-details"
   }, {
     path: "/blog-grid",
-    component: _3e1855b4,
+    component: _6fabb882,
     name: "blog-grid"
   }, {
     path: "/contact-us",
-    component: _dacf3650,
+    component: _4ac0582d,
     name: "contact-us"
   }, {
     path: "/form",
-    component: _401abd1e,
+    component: _f6d60ef4,
     name: "form"
   }, {
     path: "/home-three",
-    component: _883ab3c6,
+    component: _740a9972,
     name: "home-three"
   }, {
     path: "/home-two",
-    component: _5422c98b,
+    component: _ba2ce3c0,
     name: "home-two"
   }, {
     path: "/project",
-    component: _0270f0fc,
+    component: _abb67472,
     name: "project"
   }, {
     path: "/project-details",
-    component: _66fa5ff1,
+    component: _2c438c88,
     name: "project-details"
   }, {
     path: "/service",
-    component: _70f582d0,
+    component: _6f391363,
     name: "service"
   }, {
     path: "/",
-    component: _f5fc7e16,
+    component: _74aa4c80,
     name: "index"
   }],
 

@@ -16,7 +16,7 @@
         "bootstrap-vue": "^2.21.2",
         "core-js": "^3.6.5",
         "mixitup": "^3.3.1",
-        "nuxt": "^2.15.7",
+        "nuxt": "^2.15.8",
         "parallax-js": "^3.1.0",
         "swiper": "^5.3.7",
         "vue-awesome-swiper": "^4.1.0",
