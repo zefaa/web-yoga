@@ -77,6 +77,20 @@
     "_name": "_6f391363"
   },
   {
+    "name": "unit",
+    "path": "/unit",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit.vue",
+    "chunkName": "pages/unit",
+    "_name": "_56e76546"
+  },
+  {
+    "name": "unit-detail",
+    "path": "/unit-detail",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit-detail.vue",
+    "chunkName": "pages/unit-detail",
+    "_name": "_79cd33e8"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/index.vue",

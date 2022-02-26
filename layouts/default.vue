@@ -43,7 +43,7 @@
                 <n-link to="/">Beranda</n-link>
             </li>
             <li>
-                <n-link to="/about">Unit</n-link>
+                <n-link to="/unit">Unit</n-link>
             </li>
             <li>
                 <n-link to="/blog-grid">Berita</n-link>

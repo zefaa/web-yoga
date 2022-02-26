@@ -15,6 +15,8 @@ const _ba2ce3c0 = () => interopDefault(import('../pages/home-two.vue' /* webpack
 const _abb67472 = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
 const _2c438c88 = () => interopDefault(import('../pages/project-details.vue' /* webpackChunkName: "pages/project-details" */))
 const _6f391363 = () => interopDefault(import('../pages/service.vue' /* webpackChunkName: "pages/service" */))
+const _56e76546 = () => interopDefault(import('../pages/unit.vue' /* webpackChunkName: "pages/unit" */))
+const _79cd33e8 = () => interopDefault(import('../pages/unit-detail.vue' /* webpackChunkName: "pages/unit-detail" */))
 const _74aa4c80 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -72,6 +74,14 @@ export const routerOptions = {
     path: "/service",
     component: _6f391363,
     name: "service"
+  }, {
+    path: "/unit",
+    component: _56e76546,
+    name: "unit"
+  }, {
+    path: "/unit-detail",
+    component: _79cd33e8,
+    name: "unit-detail"
   }, {
     path: "/",
     component: _74aa4c80,
