@@ -19,12 +19,22 @@
 
         <ContactSectionTwo />
 
+       <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 mtn-30">
+          <div
+            class="col mt-30"
+            v-for="(team, index) in teamData.slice(0, 4)"
+            :key="index"
+          >
+            <TeamMember :team="team" />
+          </div>
+        </div>
         <TheFooter />
 
     </div>
 </template>
 
 <script>
+import teamData from "~/data/team.json";
     export default {
         components: {
             TheHeader: () => import('@/components/TheHeader'),
@@ -36,11 +46,13 @@
             AboutFour: () => import('@/components/AboutFour'),
             FunfactWithTitle: () => import('@/components/FunfactWithTitle'),
             ContactSectionTwo: () => import('@/components/ContactSectionTwo'),
+            TeamMember: () => import ('@/components/TeamMember'),
             TheFooter: () => import('@/components/TheFooter'),
         },
 
         data() {
             return {
+                 teamData,
                 items: [
                     {
                         text: 'Home',
