@@ -1,7 +1,7 @@
 <template>
     <div class="main-container">
 
-        <BreadcrumbOne :items="items" title="Berita" backgroundUrl= "/images/bg/breadcrumb-bg-four.jpg" />
+        <BreadcrumbOne :items="items" title="Berita" backgroundUrl= "/images/bg/bannerNews.png" />
 
         <!-- Blog Section Start -->
         <div class="section-padding fix">

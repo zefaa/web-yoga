@@ -26,31 +26,31 @@
             return {
                 shapeData: [
                     {
-                        imgSrc:"/images/icon-animation/icon-1.png",
+                        imgSrc:"/images/icon-animation/icon-agreement.png",
                         className:"shape-1"
                     },
                     {
-                        imgSrc:"/images/icon-animation/icon-2.png",
+                        imgSrc:"/images/icon-animation/icon-conversation.png",
                         className:"shape-2"
                     },
                     {
-                        imgSrc:"/images/icon-animation/icon-3.png",
+                        imgSrc:"/images/icon-animation/icon-freedom.png",
                         className:"shape-3"
                     },
                     {
-                        imgSrc:"/images/icon-animation/icon-4.png",
+                        imgSrc:"/images/icon-animation/icon-idea.png",
                         className:"shape-4"
                     },
                     {
-                        imgSrc:"/images/icon-animation/icon-5.png",
+                        imgSrc:"/images/icon-animation/icon-muscle.png",
                         className:"shape-5"
                     },
                     {
-                        imgSrc:"/images/icon-animation/icon-6.png",
+                        imgSrc:"/images/icon-animation/icon-etica.png",
                         className:"shape-6"
                     },
                     {
-                        imgSrc:"/images/icon-animation/icon-7.png",
+                        imgSrc:"/images/icon-animation/icon-comm.png",
                         className:"shape-7"
                     },
                     {

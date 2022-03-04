@@ -1,65 +1,64 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <OffCanvasMobileMenu />
 
-        
+    <SearchPopup />
 
-        <OffCanvasMobileMenu />
+    <BreadcrumbOne
+      :items="items"
+      title="MEWUJUDKAN PENDIDIKAN KATOLIK
+YANG MEMBENTUK PRIBADI BERINTEGRITAS"
+      backgroundUrl="/images/bg/breadcrumb-bg.jpg"
+    />
 
-        <SearchPopup />
+    <AboutTwo class="section-padding-top about-section-padding-bottom-200" />
 
-        <BreadcrumbOne :items="items" title="We are an agency located in New York" backgroundUrl= "/images/bg/breadcrumb-bg.jpg" />
+    <CallToActionVideo />
 
-        <AboutTwo class="section-padding-top about-section-padding-bottom-200" />
+    <AboutFour />
 
-        <CallToActionVideo />
+    <!-- <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" /> -->
 
-        <AboutFour />
-
-        <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" />
-
-        <CallToActionThree />
-
-        
-
-    </div>
+    <CallToActionThree />
+  </div>
 </template>
 
 <script>
-    export default {
-        components: {
-            TheHeader: () => import('@/components/TheHeader'),
-            OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            SearchPopup: () => import('@/components/SearchPopup'),
-            BreadcrumbOne: () => import('@/components/BreadcrumbOne'),
-            AboutTwo: () => import('@/components/AboutTwo'),
-            CallToActionVideo: () => import('@/components/CallToActionVideo'),
-            AboutFour: () => import('@/components/AboutFour'),
-            TestimonialSectionOne: () => import('@/components/TestimonialSectionOne'),
-            CallToActionThree: () => import('@/components/CallToActionThree'),
-            TheFooter: () => import('@/components/TheFooter'),
-        },
+export default {
+  components: {
+    TheHeader: () => import("@/components/TheHeader"),
+    OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
+    SearchPopup: () => import("@/components/SearchPopup"),
+    BreadcrumbOne: () => import("@/components/BreadcrumbOne"),
+    AboutTwo: () => import("@/components/AboutTwo"),
+    CallToActionVideo: () => import("@/components/CallToActionVideo"),
+    AboutFour: () => import("@/components/AboutFour"),
+    TestimonialSectionOne: () => import("@/components/TestimonialSectionOne"),
+    CallToActionThree: () => import("@/components/CallToActionThree"),
+    TheFooter: () => import("@/components/TheFooter"),
+  },
 
-        data() {
-            return {
-                items: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'About Us',
-                        active: true
-                    }
-                ]
-            }
+  data() {
+    return {
+      items: [
+        {
+          text: "Beranda",
+          to: "/",
         },
-
-        head() {
-            return {
-                title: 'About us'
-            }
+        {
+          text: "Tentang Kami",
+          active: true,
         },
+      ],
     };
+  },
+
+  head() {
+    return {
+      title: "Tentang Kami",
+    };
+  },
+};
 </script>
 
 

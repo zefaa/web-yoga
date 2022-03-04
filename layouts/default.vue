@@ -10,7 +10,8 @@
             <!-- Header Logo Start -->
             <div class="col-xl-2 col-auto order-0">
               <div class="header-logo">
-                <n-link to="/">
+                <n-link to="/" style="
+    color: white;">
                   <!-- <img
                     class="dark-logo"
                     src="/images/logo/logo.png"
@@ -41,6 +42,9 @@
         <ul>
             <li>
                 <n-link to="/">Beranda</n-link>
+            </li>
+            <li>
+                <n-link to="/about">Tentang</n-link>
             </li>
             <li>
                 <n-link to="/unit">Unit</n-link>
