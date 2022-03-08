@@ -49,18 +49,18 @@
                         imgSrc:"/images/icon-animation/icon-etica.png",
                         className:"shape-6"
                     },
+                    // {
+                    //     imgSrc:"/images/icon-animation/icon-comm.png",
+                    //     className:"shape-7"
+                    // },
                     {
                         imgSrc:"/images/icon-animation/icon-comm.png",
-                        className:"shape-7"
-                    },
-                    {
-                        imgSrc:"/images/icon-animation/icon-8.png",
                         className:"shape-8"
                     },
-                    {
-                        imgSrc:"/images/icon-animation/icon-9.png",
-                        className:"shape-9"
-                    }
+                    // {
+                    //     imgSrc:"/images/icon-animation/icon-9.png",
+                    //     className:"shape-9"
+                    // }
                 ]
             }
         }

@@ -13,6 +13,8 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
 
     <AboutTwo class="section-padding-top about-section-padding-bottom-200" />
 
+    <CallToActionOne />
+
     <CallToActionVideo />
 
     <AboutFour />
@@ -35,6 +37,7 @@ export default {
     AboutFour: () => import("@/components/AboutFour"),
     TestimonialSectionOne: () => import("@/components/TestimonialSectionOne"),
     CallToActionThree: () => import("@/components/CallToActionThree"),
+    CallToActionOne: () => import("@/components/CallToActionOne"),
     TheFooter: () => import("@/components/TheFooter"),
   },
 

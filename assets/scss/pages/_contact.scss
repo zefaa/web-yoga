@@ -25,12 +25,15 @@
     }
 }
 .contact-info{
-    display: flex;
-    align-items: flex-start;
+    // display: flex;
+    // align-items: flex-start;
+    justify-items: center;
+    justify-content: center;
+   
     padding: 45px 30px 50px;
     border-radius: 5px;
     background-color: $white;
-    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+    // box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
     transition: $transition;
     // Responsive
     @media #{$large-mobile}{
@@ -138,6 +141,7 @@
             font-size: 16px;
             display: block;
             line-height: 27px;
+            text-align: center;
             strong{
                 color: $heading-color;
             }

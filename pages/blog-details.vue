@@ -4,7 +4,7 @@
 
         <SearchPopup />
 
-        <BreadcrumbOne :items="items" title="Berita" backgroundUrl= "/images/bg/breadcrumb-bg-four.jpg" />
+        <BreadcrumbOne :items="items" title="Berita" backgroundUrl= "/images/bg/bannerNews.png" />
 
         <!-- Blog Section Start -->
         <div class="section-padding fix">
@@ -18,10 +18,10 @@
                             <div class="blog-3 blog-details col" data-aos="fade-up">
                                 <div class="info">
                                 <div class="thumbnail">
-                                    <img class="w-100" src="/images/blog/770/blog-2.jpg" alt="Blog Image">
+                                    <img class="w-100" src="/images/blog/770/rabu-abu.png" alt="Blog Image">
                                 </div>
                                 <ul class="meta mb-0 mt-4">
-                                        <li><i class="fal fa-pencil-alt"></i>Ditulis oleh Admin, 10 Oct 2020</li>
+                                        <li><i class="fal fa-pencil-alt"></i>Ditulis oleh Admin, 1 Maret 2022</li>
                                         <!-- <li><i class="fas fa-tags"></i>Marketing, UX Design</li> -->
                                         <!-- <li><i class="fas fa-comments"></i>4 Comments</li> -->
                                         <li class="media"><a href="#"><i class="fas fa-share-alt"></i>Bagikan Berita</a>
@@ -35,19 +35,13 @@
                                     </ul>
                                 </div>
                                 <div class="info">
-                                    <h3 class="title">Marketing just became invaluable: a new revenue marketing model for a new world</h3>
-                                    <div class="desc">
-                                        <p><strong>We've always known the power of digital, and we've mastered the strategy, tactics, and technology to harness it. Now, other departments have had to embrace the digital transformation that busine- sses have been talking about for so long, and those colleagues are turning to us in Marketing to provide guidance.</strong></p>
+                                    <h3 class="title" style="text-align : center">SMPK KARITAS II KENALKAN ARTI PANTANG DAN PUASA RABU ABU KEPADA SISWA MELALUI PENDALAMAN</h3>
+                                    <div class="desc" style="text-align : justify">
+                                        <p>Hari Rabu Abu merupakan hari yang dinantikan oleh Umat Katolik di seluruh dunia. Hal ini juga menjadi momen penting termasuk bagi SMPK Karitas II. Bu Randu, Guru Agama SMPK Karitas II, mengajak seluruh siswa untuk menyambut masa Prapaskah melalui Pendalaman Rabu Abu pada Selasa, 1 Maret 2022. Tema yang diambil dalam pendalaman ini adalah “Apa itu Rabu Abu?”. Pendalaman Rabu Abu dengan tema tersebut diambil dalam rangka menyambut Masa Pra-Paskah. Sekolah ingin secara khusus lebih mengenalkan arti dan makna Rabu Abu, serta pentingnya puasa dan pantang dalam ajaran Gereja Katolik. Melibatkan seluruh siswa dari kelas 7 hingga kelas 9 sebanyak kurang lebih 100 peserta, acara ini berjalan dengan lancar. Dalam kegiatan ini dijelaskan materi tentang Rabu Abu, Pantang dan Puasa. Meskipun belum memasuki usia dewasa, tapi para siswa diajak untuk ikut berpartisipasi aktif dalam masa Pra-Paskah.</p>
 
-                                        <p>Even if it is a brave new world for everyone else, for marketers it's another day in the proverbial office.</p>
+                                        <p> Para siswa yang mengikuti kegiatan ini merespon dengan baik dan antusias. Mereka tertarik dalam memperoleh pengetahuan dan pemahaman baru terkait Rabu Abu dan aturan-aturan puasa pantang yang ada dalam masa pertobatan ini. Harapan sekolah setelah terlaksananya kegiatan ini adalah siswa dapat lebih memahami Rabu Abu serta lebih memaknai arti pantang dan puasa. Tidak hanya itu, siswa juga diharapkan dapat membedakan pantang dan puasa serta dapat melaksanakannya dengan tepat. Lebih dari itu, melalui kegiatan ini siswa juga dapat menyadari siapa saja yang memiliki keharusan maupun kewajiban dalam berpantang dan berpuasa.</p>
 
-                                        <p>Now, the digital evolution is resonating across organizations. The pandemic has shifted internal structures and changed relationships with customers, and as a result marketers have become more valuable than ever.</p>
-
-                                        <p><strong>The Shift Inside Organizations: Marketers Become Indispensable in a Digital World.</strong></p>
-
-                                        <p>Marketing has often been known as the department that makes PowerPoints and polishes websites. That wasn't ever close to the whole truth, of course, but past company structures — in which Marketing always played second fiddle to Sales — allowed that falsehood to persist.</p>
-
-                                        <p>The pandemic has transformed what the marketing team means to an organization: It's given us agency. It's upended the customer journey. It's redefined how sales and marketing teams should interact. And it's forced businesses to see the value that marketers provide in a digital world.</p>
+                                      
                                     </div>
                                     
                                 </div>
@@ -197,7 +191,7 @@
         </div>
         <!-- Blog Section End -->
 
-        <CallToActionTwo />
+        <!-- <CallToActionTwo /> -->
 
         
 
