@@ -41,7 +41,7 @@
               :key="index"
               bac
             >
-              <TestimonialItem :testimonial="testimonial" />
+              <!-- <TestimonialItem :testimonial="testimonial" /> -->
             </div>
           </swiper>
           <div class="swiper-pagination text-center"></div>
@@ -63,7 +63,7 @@ export default {
     SearchPopup: () => import("@/components/SearchPopup"),
     BreadcrumbOne: () => import("@/components/BreadcrumbOne"),
 
-    TestimonialItem: () => import("@/components/TestimonialItem"),
+    // TestimonialItem: () => import("@/components/TestimonialItem"),
   },
 
   data() {

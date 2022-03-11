@@ -2,7 +2,15 @@
   <div class="section-padding-t90-b100">
     <div class="container shape-animate">
       <!-- Section Title Start -->
-      <SectionTitle title="Visi dan Misi" add-class-name="mb-30" />
+      <div
+        class="section-title text-center"
+        add-class-name="mb-30"
+        data-aos="fade-up"
+      >
+        <h2 class="title">Visi dan Misi</h2>
+        <p class="sub-title" style="font-size: 22px;line-height: 44px;color: black; max-width: 970px; margin-top: 50px">Mewujudkan Pendidikan Katolik Yang Membentuk Pribadi Berintegritas</p>
+      </div>
+
       <!-- Section Title End -->
 
       <div
@@ -13,11 +21,7 @@
             <div class="image-content">
               <div class="image-box">
                 <div class="icon">
-                  <img
-                   
-                    src="/images/icon-animation/icon_misi.png"
-                    alt="Icon"
-                  />
+                  <img src="/images/icon-animation/icon_misi.png" alt="Icon" />
                 </div>
               </div>
             </div>
@@ -35,11 +39,7 @@
             <div class="image-content">
               <div class="image-box">
                 <div class="icon">
-                  <img
-                    
-                    src="/images/icon-animation/icon_misi3.png"
-                    alt="Icon"
-                  />
+                  <img src="/images/icon-animation/icon_misi3.png" alt="Icon" />
                 </div>
               </div>
             </div>
@@ -58,11 +58,7 @@
             <div class="image-content">
               <div class="image-box">
                 <div class="icon">
-                  <img
-                   
-                    src="/images/icon-animation/icon_misi2.png"
-                    alt="Icon"
-                  />
+                  <img src="/images/icon-animation/icon_misi2.png" alt="Icon" />
                 </div>
               </div>
             </div>
@@ -99,15 +95,15 @@ export default {
 
 <style scoped>
 .image-content {
-  max-width: 200px;
-  height: 250px;
+  /* max-width: 200px; */
+  height: 150px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
 
 .image-box {
-  width: 200px;
+  width: 150px;
   height: 114px;
 }
 
