@@ -110,6 +110,9 @@
   "SkillWithVideo": {
     "description": "Auto imported from components/SkillWithVideo.vue"
   },
+  "Slider": {
+    "description": "Auto imported from components/Slider.vue"
+  },
   "SuccessStory": {
     "description": "Auto imported from components/SuccessStory.vue"
   },
@@ -130,5 +133,8 @@
   },
   "TheHeader": {
     "description": "Auto imported from components/TheHeader.vue"
+  },
+  "Unit": {
+    "description": "Auto imported from components/Unit.vue"
   }
 }

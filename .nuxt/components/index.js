@@ -35,6 +35,7 @@ export { default as ServiceItem } from '../../components/ServiceItem.vue'
 export { default as ServiceWrapper } from '../../components/ServiceWrapper.vue'
 export { default as ShapeWithAnimation } from '../../components/ShapeWithAnimation.vue'
 export { default as SkillWithVideo } from '../../components/SkillWithVideo.vue'
+export { default as Slider } from '../../components/Slider.vue'
 export { default as SuccessStory } from '../../components/SuccessStory.vue'
 export { default as TeamMember } from '../../components/TeamMember.vue'
 export { default as TeamOne } from '../../components/TeamOne.vue'
@@ -42,6 +43,7 @@ export { default as TestimonialItem } from '../../components/TestimonialItem.vue
 export { default as TestimonialSectionOne } from '../../components/TestimonialSectionOne.vue'
 export { default as TheFooter } from '../../components/TheFooter.vue'
 export { default as TheHeader } from '../../components/TheHeader.vue'
+export { default as Unit } from '../../components/Unit.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

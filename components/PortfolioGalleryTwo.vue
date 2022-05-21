@@ -2,12 +2,12 @@
     <div class="section-padding">
         <div class="container-fluid px-0">
             <div class="section-title text-center" data-aos="fade-up">
-                <h2 class="title">Great even greater creative works</h2>
-                <p class="sub-title">Get your company heading in the right direction with our digital marketing strategist</p>
+                <h2 class="title">POSTER PPDB UNIT SEKOLAH</h2>
+                <p class="sub-title">YAYASAN YOHANNES GABRIEL PERWAKILAN I</p>
             </div>
 
             <div class="messonry-button text-center mb-60">
-                <button data-filter="all"><span class="filter-text">All</span></button>
+                <button data-filter="all"><span class="filter-text">Semua</span></button>
                 <button data-filter=".app"><span class="filter-text">App</span></button>
                 <button data-filter=".development"><span class="filter-text">Development</span></button>
                 <button data-filter=".marketing"><span class="filter-text">Marketing</span></button>

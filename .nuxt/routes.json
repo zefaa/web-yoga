@@ -56,6 +56,13 @@
     "_name": "_ba2ce3c0"
   },
   {
+    "name": "ppdb",
+    "path": "/ppdb",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/ppdb.vue",
+    "chunkName": "pages/ppdb",
+    "_name": "_a06fcd80"
+  },
+  {
     "name": "project",
     "path": "/project",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/project.vue",
@@ -89,6 +96,13 @@
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit-detail.vue",
     "chunkName": "pages/unit-detail",
     "_name": "_79cd33e8"
+  },
+  {
+    "name": "unit2",
+    "path": "/unit2",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit2.vue",
+    "chunkName": "pages/unit2",
+    "_name": "_f3c62648"
   },
   {
     "name": "index",

@@ -12,11 +12,13 @@ const _4ac0582d = () => interopDefault(import('../pages/contact-us.vue' /* webpa
 const _f6d60ef4 = () => interopDefault(import('../pages/form.vue' /* webpackChunkName: "pages/form" */))
 const _740a9972 = () => interopDefault(import('../pages/home-three.vue' /* webpackChunkName: "pages/home-three" */))
 const _ba2ce3c0 = () => interopDefault(import('../pages/home-two.vue' /* webpackChunkName: "pages/home-two" */))
+const _a06fcd80 = () => interopDefault(import('../pages/ppdb.vue' /* webpackChunkName: "pages/ppdb" */))
 const _abb67472 = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
 const _2c438c88 = () => interopDefault(import('../pages/project-details.vue' /* webpackChunkName: "pages/project-details" */))
 const _6f391363 = () => interopDefault(import('../pages/service.vue' /* webpackChunkName: "pages/service" */))
 const _56e76546 = () => interopDefault(import('../pages/unit.vue' /* webpackChunkName: "pages/unit" */))
 const _79cd33e8 = () => interopDefault(import('../pages/unit-detail.vue' /* webpackChunkName: "pages/unit-detail" */))
+const _f3c62648 = () => interopDefault(import('../pages/unit2.vue' /* webpackChunkName: "pages/unit2" */))
 const _74aa4c80 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -63,6 +65,10 @@ export const routerOptions = {
     component: _ba2ce3c0,
     name: "home-two"
   }, {
+    path: "/ppdb",
+    component: _a06fcd80,
+    name: "ppdb"
+  }, {
     path: "/project",
     component: _abb67472,
     name: "project"
@@ -82,6 +88,10 @@ export const routerOptions = {
     path: "/unit-detail",
     component: _79cd33e8,
     name: "unit-detail"
+  }, {
+    path: "/unit2",
+    component: _f3c62648,
+    name: "unit2"
   }, {
     path: "/",
     component: _74aa4c80,

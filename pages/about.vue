@@ -363,9 +363,9 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
           :key="index"
           :class="shape.className"
         >
-          <span>
+          <!-- <span>
             <img :src="shape.imgSrc" alt="icon" />
-          </span>
+          </span> -->
         </div>
         <!-- Icon Animation End -->
       </div>
@@ -534,7 +534,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
                     "
                   >
                     <!-- <div class="happening__desc happening__desc2 col-md-8 col-md-offset-1 col-sm-6 col-xs-12 col-sm-offset-0 col-xs-offset-0"> -->
-                    <h3 class="time__item-title" style="text-align: center">Perluasan</h3>
+                    <h3 class="time__item-title">Perluasan</h3>
                     <p class="time__item-desc">
                       Tahun 2001 berdiri TKK St. Maria Wiyung dan SDK St.
                       Mary<br />
@@ -601,36 +601,36 @@ export default {
       ],
       shapeData: [
         {
-          imgSrc: "/images/icon-animation/icon-agreement.png",
-          className: "shape-1",
+          // imgSrc: "/images/icon-animation/icon-agreement.png",
+          // className: "shape-1",
         },
         {
-          imgSrc: "/images/icon-animation/icon-conversation.png",
-          className: "shape-2",
+          // imgSrc: "/images/icon-animation/icon-conversation.png",
+          // className: "shape-2",
         },
         {
-          imgSrc: "/images/icon-animation/icon-freedom.png",
-          className: "shape-3",
+          // imgSrc: "/images/icon-animation/icon-freedom.png",
+          // className: "shape-3",
         },
         {
-          imgSrc: "/images/icon-animation/icon-idea.png",
-          className: "shape-4",
+          // imgSrc: "/images/icon-animation/icon-idea.png",
+          // className: "shape-4",
         },
         {
-          imgSrc: "/images/icon-animation/icon-muscle.png",
-          className: "shape-5",
+          // imgSrc: "/images/icon-animation/icon-muscle.png",
+          // className: "shape-5",
         },
         {
-          imgSrc: "/images/icon-animation/icon-etica.png",
-          className: "shape-6",
+          // imgSrc: "/images/icon-animation/icon-etica.png",
+          // className: "shape-6",
         },
         // {
         //     imgSrc:"/images/icon-animation/icon-comm.png",
         //     className:"shape-7"
         // },
         {
-          imgSrc: "/images/icon-animation/icon-comm.png",
-          className: "shape-9",
+          // imgSrc: "/images/icon-animation/icon-comm.png",
+          // className: "shape-9",
         },
         // {
         //     imgSrc:"/images/icon-animation/icon-9.png",

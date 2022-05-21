@@ -1,0 +1,34 @@
+{
+    "ppdb": [
+        {
+            "id": 1,
+            "imgSrc": "/images/ppdb/TK1.png",
+            "title": "TK I YOGA",
+            "category": "tk"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/ppdb/SD1.png",
+            "title": "SD I YOGA",
+            "category": "sd"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/ppdb/SMP1.png",
+            "title": "SMP I YOGA",
+            "category": "smp"
+        },
+        {
+            "id": 4,
+            "imgSrc": "/images/ppdb/SMP2.png",
+            "title": "SMP II YOGA",
+            "category": "smp"
+        },
+        {
+            "id": 5,
+            "imgSrc": "/images/ppdb/SMA1.png",
+            "title": "SMA I YOGA",
+            "category": "sma"
+        }
+    ]
+}

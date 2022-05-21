@@ -43,6 +43,7 @@ You can directly use them in pages and other components without the need to impo
 - `<ServiceWrapper>` | `<service-wrapper>` (components/ServiceWrapper.vue)
 - `<ShapeWithAnimation>` | `<shape-with-animation>` (components/ShapeWithAnimation.vue)
 - `<SkillWithVideo>` | `<skill-with-video>` (components/SkillWithVideo.vue)
+- `<Slider>` | `<slider>` (components/Slider.vue)
 - `<SuccessStory>` | `<success-story>` (components/SuccessStory.vue)
 - `<TeamMember>` | `<team-member>` (components/TeamMember.vue)
 - `<TeamOne>` | `<team-one>` (components/TeamOne.vue)
@@ -50,3 +51,4 @@ You can directly use them in pages and other components without the need to impo
 - `<TestimonialSectionOne>` | `<testimonial-section-one>` (components/TestimonialSectionOne.vue)
 - `<TheFooter>` | `<the-footer>` (components/TheFooter.vue)
 - `<TheHeader>` | `<the-header>` (components/TheHeader.vue)
+- `<Unit>` | `<unit>` (components/Unit.vue)

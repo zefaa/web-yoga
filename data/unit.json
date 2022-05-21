@@ -1,0 +1,58 @@
+{
+    "unit": [
+        {
+            "id": 1,
+            "imgSrc": "/images/unit/tksda.png",
+            "title": "TKK ST. MARIA SIDOARJO",
+            "category": "tk"
+        },
+        {
+            "id": 2,
+            "imgSrc": "/images/unit/tkatarina.png",
+            "title": "TKK KATARINA",
+            "category": "tk"
+        },
+        {
+            "id": 3,
+            "imgSrc": "/images/unit/tk5.png",
+            "title": "TKK KARITAS V",
+            "category": "tk"
+        },
+        {
+            "id": 4,
+            "imgSrc": "/images/unit/tk-smakarpil.png",
+            "title": "TKK ST. YUSUP KARANGPILANG",
+            "category": "tk"
+        },
+        {
+            "id": 5,
+            "imgSrc": "/images/unit/tk-smptropodo.png",
+            "title": "TKK ST. YUSUP TROPODO",
+            "category": "tk"
+        },
+        {
+            "id": 6,
+            "imgSrc": "/images/unit/tk-smptropodo.png",
+            "title": "SDK ST. YUSUP TROPODO",
+            "category": "sd"
+        },
+        {
+            "id": 7,
+            "imgSrc": "/images/unit/tk-smakarpil.png",
+            "title": "SDK ST. YUSUP KARANGPILANG",
+            "category": "sd"
+        },
+        {
+            "id": 8,
+            "imgSrc": "/images/unit/tk-smptropodo.png",
+            "title": "SMP ST. YUSUP TROPODO",
+            "category": "smp"
+        },
+        {
+            "id": 9,
+            "imgSrc": "/images/unit/tk-smakarpil.png",
+            "title": "SMA ST. YUSUP KARANGPILANG",
+            "category": "sma"
+        }
+    ]
+}

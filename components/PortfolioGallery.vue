@@ -5,32 +5,32 @@
                 <div class="col-lg-5">
                     <!-- Section Title Two Start -->
                     <div class="section-title-two">
-                        <span class="sub-title">Portfolios</span>
-                        <h3 class="title">Selected works.</h3>
+                        <span class="sub-title">PENERIMAAN PESERTA DIDIK BARU</span>
+                        <h3 class="title">Unit Yayasan Yohannes Gabriel</h3>
                     </div>
                     <!-- Section Title Two End -->
                 </div>
                 <div class="col-lg-7">
                     <div class="messonry-button text-lg-right text-left">
-                        <button data-filter="all"><span class="filter-text">All</span></button>
-                        <button data-filter=".app"><span class="filter-text">App</span></button>
-                        <button data-filter=".development"><span class="filter-text">Development</span></button>
-                        <button data-filter=".marketing"><span class="filter-text">Marketing</span></button>
-                        <button data-filter=".software"><span class="filter-text">Software</span></button>
-                        <button data-filter=".design"><span class="filter-text">Design</span></button>
+                        <button data-filter="all"><span class="filter-text">SEMUA</span></button>
+                        <button data-filter=".tk"><span class="filter-text">TK</span></button>
+                        <button data-filter=".sd"><span class="filter-text">SD</span></button>
+                        <button data-filter=".smp"><span class="filter-text">SMP</span></button>
+                        <button data-filter=".sma"><span class="filter-text">SMA</span></button>
+                        <!-- <button data-filter=".design"><span class="filter-text">Design</span></button> -->
                     </div>
                 </div>
             </div>
 
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 no-gutters box">
-                <div class="col mix" :class="portfolio.category" v-for="(portfolio, index) in portfolioData.portfolios" :key="index">
+                <div class="col mix" :class="ppdb.category" v-for="(ppdb, index) in ppdbData.ppdb" :key="index">
                     <div class="single-portfolio">
                         <div class="thumbnail">
-                            <img class="img-fluid" :src="portfolio.imgSrc" :alt="portfolio.title">
+                            <img class="img-fluid" :src="ppdb.imgSrc" :alt="ppdb.title">
                         </div>
                         <div class="content">
                             <h5 class="title">
-                                <n-link to="/project-details">{{ portfolio.title }}</n-link>
+                                <n-link to="#">{{ ppdb.title }}</n-link>
                             </h5>
                         </div>
                     </div>
@@ -41,12 +41,12 @@
 </template>
 
 <script>
-    import portfolioData from "~/data/portfolios.json";
+    import ppdbData from "~/data/ppdb.json";
 
     export default {
         data() {
             return {
-                portfolioData,
+                ppdbData,
                 mixer: null
             }
         },

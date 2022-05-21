@@ -47,6 +47,7 @@
                 <n-link to="/about">Tentang</n-link>
             </li>
             <li>
+                <!-- <n-link to="/unit">Unit</n-link> -->
                 <n-link to="/unit">Unit</n-link>
             </li>
             <li>
@@ -59,13 +60,16 @@
                 <n-link to="">Pendaftaran</n-link>
                 <ul class="sub-menu">
                     <li>
-                        <n-link to="/form">Siswa Baru</n-link>
+                        <n-link to="/ppdb">Siswa Baru</n-link>
                     </li>
                     <li>
                         <n-link to="/form">Guru/Karyawan</n-link>
                     </li>
                 </ul>
             </li>
+            <!-- <li>
+                <n-link to="/ppdb">PPDB</n-link>
+            </li> -->
             <!-- <li class="has-children">
                 <n-link to="/blog-grid">Blog</n-link>
                 <ul class="sub-menu">
