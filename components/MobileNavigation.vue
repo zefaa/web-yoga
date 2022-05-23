@@ -23,10 +23,10 @@
           <n-link to="">Pendaftaran</n-link>
           <ul class="sub-menu">
             <li>
-              <n-link to="/ppdb">Siswa Baru</n-link>
+              <n-link to="/registration/students">Siswa Baru</n-link>
             </li>
             <li>
-              <n-link to="/form">Guru/Karyawan</n-link>
+              <n-link to="/registration/employee">Guru/Karyawan</n-link>
             </li>
           </ul>
         </li>

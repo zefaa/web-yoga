@@ -103,7 +103,6 @@ import blogData from "~/data/blog.json";
 
 export default {
   components: {
-    TheHeader: () => import("@/components/TheHeader"),
     OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
     BreadcrumbOne: () => import("@/components/BreadcrumbOne"),
   },
@@ -127,7 +126,7 @@ export default {
 
   head() {
     return {
-      title: "Blog Details",
+      title: "Detail Berita",
     };
   },
 };

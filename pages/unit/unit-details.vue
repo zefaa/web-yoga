@@ -188,9 +188,7 @@
 <script>
 export default {
   components: {
-    
     OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
-   
     BreadcrumbOne: () => import("@/components/BreadcrumbOne"),
     
   },

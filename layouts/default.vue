@@ -47,32 +47,17 @@
                       <n-link to="">Pendaftaran</n-link>
                       <ul class="sub-menu">
                         <li>
-                          <n-link to="/ppdb">Siswa Baru</n-link>
+                          <n-link to="/registration/students">Siswa Baru</n-link>
                         </li>
                         <li>
-                          <n-link to="/form">Guru/Karyawan</n-link>
+                          <n-link to="/registration/employee">Guru/Karyawan</n-link>
                         </li>
                       </ul>
                     </li>
                   </ul>
                 </nav>
               </div>
-              <!-- Header Search Start -->
-              <!-- <div class="header-search-area">
-                
-                <div class="header-search">
-                  <a
-                    href="javascript:void(0)"
-                    class="header-search-toggle"
-                    @click="toggleClass('addClass', 'search-popup-open')"
-                  >
-                    <i class="pe-7s-search pe-2x pe-va"></i>
-                  </a>
-                </div>
-                
-              </div> -->
-
-              <!-- Header Mobile Menu Toggle Start -->
+              
               <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
                 <button
                   class="toggle"
@@ -247,14 +232,12 @@
 <script>
 import footerData from "~/data/footer.json";
 export default {
-  components: {
-    Navigation: () => import("@/components/Navigation"),
-  },
 
   data() {
     return {
       isSticky: false,
       footerData,
+      
     };
   },
 

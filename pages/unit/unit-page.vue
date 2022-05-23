@@ -17,7 +17,6 @@ export default {
     OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
     BreadcrumbOne: () => import("@/components/BreadcrumbOne"),
     Unit: () => import("@/components/Unit"),
-    
   },
 
   data() {

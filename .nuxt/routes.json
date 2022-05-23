@@ -3,98 +3,48 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_54f271bb"
-  },
-  {
-    "name": "blog-classic",
-    "path": "/blog-classic",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/blog-classic.vue",
-    "chunkName": "pages/blog-classic",
-    "_name": "_1d3abcae"
-  },
-  {
-    "name": "contact-us",
-    "path": "/contact-us",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/contact-us.vue",
-    "chunkName": "pages/contact-us",
-    "_name": "_4ac0582d"
-  },
-  {
-    "name": "form",
-    "path": "/form",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/form.vue",
-    "chunkName": "pages/form",
-    "_name": "_f6d60ef4"
-  },
-  {
-    "name": "home-three",
-    "path": "/home-three",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/home-three.vue",
-    "chunkName": "pages/home-three",
-    "_name": "_740a9972"
-  },
-  {
-    "name": "home-two",
-    "path": "/home-two",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/home-two.vue",
-    "chunkName": "pages/home-two",
-    "_name": "_ba2ce3c0"
-  },
-  {
-    "name": "ppdb",
-    "path": "/ppdb",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/ppdb.vue",
-    "chunkName": "pages/ppdb",
-    "_name": "_a06fcd80"
-  },
-  {
-    "name": "project",
-    "path": "/project",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/project.vue",
-    "chunkName": "pages/project",
-    "_name": "_abb67472"
-  },
-  {
-    "name": "service",
-    "path": "/service",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/service.vue",
-    "chunkName": "pages/service",
-    "_name": "_6f391363"
+    "chunkName": "pages/about"
   },
   {
     "name": "news-news-details",
     "path": "/news/news-details",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/news/news-details.vue",
-    "chunkName": "pages/news/news-details",
-    "_name": "_27653cb2"
+    "chunkName": "pages/news/news-details"
   },
   {
     "name": "news-news-page",
     "path": "/news/news-page",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/news/news-page.vue",
-    "chunkName": "pages/news/news-page",
-    "_name": "_444d1bcf"
+    "chunkName": "pages/news/news-page"
+  },
+  {
+    "name": "registration-employee",
+    "path": "/registration/employee",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/registration/employee.vue",
+    "chunkName": "pages/registration/employee"
+  },
+  {
+    "name": "registration-students",
+    "path": "/registration/students",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/registration/students.vue",
+    "chunkName": "pages/registration/students"
   },
   {
     "name": "unit-unit-details",
     "path": "/unit/unit-details",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit/unit-details.vue",
-    "chunkName": "pages/unit/unit-details",
-    "_name": "_119ad352"
+    "chunkName": "pages/unit/unit-details"
   },
   {
     "name": "unit-unit-page",
     "path": "/unit/unit-page",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit/unit-page.vue",
-    "chunkName": "pages/unit/unit-page",
-    "_name": "_18c0092f"
+    "chunkName": "pages/unit/unit-page"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_74aa4c80"
+    "chunkName": "pages/index"
   }
 ]

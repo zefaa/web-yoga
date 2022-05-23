@@ -264,7 +264,7 @@
 
             
               <n-link
-                to="/form"
+                to="/registration/employee"
                 class="btn btn-primary btn-hover-secondary"
               >
                 DAFTAR DISINI
