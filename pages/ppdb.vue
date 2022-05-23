@@ -2,7 +2,7 @@
   <div class="main-container">
     <OffCanvasMobileMenu />
 
-    <SearchPopup />
+   
 
     <BreadcrumbOne
       :items="items"

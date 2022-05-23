@@ -92,9 +92,6 @@
   "ProjectWrapper": {
     "description": "Auto imported from components/ProjectWrapper.vue"
   },
-  "SearchPopup": {
-    "description": "Auto imported from components/SearchPopup.vue"
-  },
   "SectionTitle": {
     "description": "Auto imported from components/SectionTitle.vue"
   },

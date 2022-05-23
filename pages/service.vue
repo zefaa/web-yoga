@@ -5,7 +5,7 @@
 
         <OffCanvasMobileMenu />
 
-        <SearchPopup />
+       
 
         <BreadcrumbOne :items="items" title="We work with bold brands that we believe in" backgroundUrl= "/images/bg/breadcrumb-bg-three.jpg" />
 
@@ -39,7 +39,7 @@ import teamData from "~/data/team.json";
         components: {
             TheHeader: () => import('@/components/TheHeader'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            SearchPopup: () => import('@/components/SearchPopup'),
+           
             BreadcrumbOne: () => import('@/components/BreadcrumbOne'),
             ServiceWrapper: () => import('@/components/ServiceWrapper'),
             SuccessStory: () => import('@/components/SuccessStory'),

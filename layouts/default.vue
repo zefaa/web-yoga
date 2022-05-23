@@ -10,19 +10,7 @@
             <!-- Header Logo Start -->
             <div class="col-xl-2 col-auto order-0">
               <div class="header-logo">
-                <n-link to="/" style="
-    color: white;">
-                  <!-- <img
-                    class="dark-logo"
-                    src="/images/logo/logo.png"
-                    alt="Agency Logo"
-                  /> -->
-                  <!-- <img
-                    class="light-logo"
-                    src="/images/logo/logo.png"
-                    alt="Agency Logo"
-                  /> -->Yohanes Gabriel
-                </n-link>
+                <n-link to="/" style="color: white"> Yohanes Gabriel </n-link>
               </div>
             </div>
             <!-- Header Logo End -->
@@ -39,56 +27,35 @@
             >
               <div class="menu-column-area d-none d-xl-block position-static">
                 <nav class="site-main-menu">
-        <ul>
-            <li>
-                <n-link to="/">Beranda</n-link>
-            </li>
-            <li>
-                <n-link to="/about">Tentang</n-link>
-            </li>
-            <li>
-                <!-- <n-link to="/unit">Unit</n-link> -->
-                <n-link to="/unit">Unit</n-link>
-            </li>
-            <li>
-                <n-link to="/blog-grid">Berita</n-link>
-            </li>
-            <li>
-                <n-link to="/about">Event</n-link>
-            </li>
-            <li class="has-children">
-                <n-link to="">Pendaftaran</n-link>
-                <ul class="sub-menu">
+                  <ul>
                     <li>
-                        <n-link to="/ppdb">Siswa Baru</n-link>
+                      <n-link to="/">Beranda</n-link>
                     </li>
                     <li>
-                        <n-link to="/form">Guru/Karyawan</n-link>
-                    </li>
-                </ul>
-            </li>
-            <!-- <li>
-                <n-link to="/ppdb">PPDB</n-link>
-            </li> -->
-            <!-- <li class="has-children">
-                <n-link to="/blog-grid">Blog</n-link>
-                <ul class="sub-menu">
-                    <li>
-                        <n-link to="/blog-grid">Blog Grid</n-link>
+                      <n-link to="/about">Tentang</n-link>
                     </li>
                     <li>
-                        <n-link to="/blog-classic">Blog Classic</n-link>
+                      <n-link to="/unit/unit-page">Unit</n-link>
                     </li>
                     <li>
-                        <n-link to="/blog-details">Blog Details</n-link>
+                      <n-link to="/news/news-page">Berita</n-link>
                     </li>
-                </ul>
-            </li>
-            <li>
-                <n-link to="/contact-us">Contact Us</n-link>
-            </li> -->
-        </ul>
-    </nav>
+                    <li>
+                      <n-link to="/about">Event</n-link>
+                    </li>
+                    <li class="has-children">
+                      <n-link to="">Pendaftaran</n-link>
+                      <ul class="sub-menu">
+                        <li>
+                          <n-link to="/ppdb">Siswa Baru</n-link>
+                        </li>
+                        <li>
+                          <n-link to="/form">Guru/Karyawan</n-link>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
               </div>
               <!-- Header Search Start -->
               <!-- <div class="header-search-area">
@@ -104,7 +71,6 @@
                 </div>
                 
               </div> -->
-              
 
               <!-- Header Mobile Menu Toggle Start -->
               <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
@@ -140,115 +106,146 @@
       </div>
     </div>
     <Nuxt />
-    <div class="footer-section" :style="{backgroundColor: '#070a30 '}">
-        <div class="container">
-            <!-- Footer Top Widgets Start -->
-            <div class="row section-padding pt-0 mtn-30">
-                <!-- Footer Widget Start -->
-                <div class="col-md-4 col-sm-6 col-12 mt-30">
-                    <div class="footer-widget">
-                        <!-- <div class="footer-logo">
+    <div class="footer-section" :style="{ backgroundColor: '#070a30 ' }">
+      <div class="container">
+        <!-- Footer Top Widgets Start -->
+        <div class="row section-padding pt-0 mtn-30">
+          <!-- Footer Widget Start -->
+          <div class="col-md-4 col-sm-6 col-12 mt-30">
+            <div class="footer-widget">
+              <!-- <div class="footer-logo">
                             <n-link to="/">
                                 <img :src="footerData.footerAboutWidget.logoSrc" alt="Logo">
                             </n-link>
                         </div> -->
-                        <div class="footer-widget-content">
-                            <div class="content">
-                                <p><a href="tel: (031) 995 33993 | 0821 3222 9796">{{ footerData.footerAboutWidget.telephone }}</a></p>
-                                <p><a href="mailto: humas@yohannesgabrielpw1.org">{{ footerData.footerAboutWidget.email }}</a></p>
-                            </div>
-                            <div class="footer-social-inline">
-                                <a :href="footerData.footerAboutWidget.twitterUrl">
-                                    <i class="fab fa-twitter-square"></i>
-                                </a>
-                                <a :href="footerData.footerAboutWidget.fbUrl">
-                                    <i class="fab fa-facebook-square"></i>
-                                </a>
-                                <a :href="footerData.footerAboutWidget.instagramUrl">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+              <div class="footer-widget-content">
+                <div class="content">
+                  <p>
+                    <a href="tel: (031) 995 33993 | 0821 3222 9796">{{
+                      footerData.footerAboutWidget.telephone
+                    }}</a>
+                  </p>
+                  <p>
+                    <a href="mailto: humas@yohannesgabrielpw1.org">{{
+                      footerData.footerAboutWidget.email
+                    }}</a>
+                  </p>
                 </div>
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleOne }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListOne" :key="index">
-                                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="footer-social-inline">
+                  <a :href="footerData.footerAboutWidget.twitterUrl">
+                    <i class="fab fa-twitter-square"></i>
+                  </a>
+                  <a :href="footerData.footerAboutWidget.fbUrl">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                  <a :href="footerData.footerAboutWidget.instagramUrl">
+                    <i class="fab fa-instagram"></i>
+                  </a>
                 </div>
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleTwo }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListTwo" :key="index">
-                                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleThree }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListThree" :key="index">
-                                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Widget End -->
-
-                <!-- Footer Widget Start -->
-                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
-                    <div class="footer-widget">
-                        <h4 class="footer-widget-title">{{ footerData.footerLinkTitleFour }}</h4>
-                        <div class="footer-widget-content">
-                            <ul>
-                                <li v-for="(nav, index) in footerData.navListFour" :key="index">
-                                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Widget End -->
+              </div>
             </div>
-            <!-- Footer Top Widgets End -->
+          </div>
+          <!-- Footer Widget End -->
 
-            <!-- Footer Copyright Start -->
-            <div class="row">
-                <div class="col">
-                    <p class="copyright">&copy; 2022 <a href="#">Yayasan Yohanes Gabriel</a>. All Rights Reserved.</p>
-                </div>
+          <!-- Footer Widget Start -->
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mt-30">
+            <div class="footer-widget">
+              <h4 class="footer-widget-title">
+                {{ footerData.footerLinkTitleOne }}
+              </h4>
+              <div class="footer-widget-content">
+                <ul>
+                  <li
+                    v-for="(nav, index) in footerData.navListOne"
+                    :key="index"
+                  >
+                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!-- Footer Copyright End -->
+          </div>
+          <!-- Footer Widget End -->
+
+          <!-- Footer Widget Start -->
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
+            <div class="footer-widget">
+              <h4 class="footer-widget-title">
+                {{ footerData.footerLinkTitleTwo }}
+              </h4>
+              <div class="footer-widget-content">
+                <ul>
+                  <li
+                    v-for="(nav, index) in footerData.navListTwo"
+                    :key="index"
+                  >
+                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Widget End -->
+
+          <!-- Footer Widget Start -->
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
+            <div class="footer-widget">
+              <h4 class="footer-widget-title">
+                {{ footerData.footerLinkTitleThree }}
+              </h4>
+              <div class="footer-widget-content">
+                <ul>
+                  <li
+                    v-for="(nav, index) in footerData.navListThree"
+                    :key="index"
+                  >
+                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Widget End -->
+
+          <!-- Footer Widget Start -->
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
+            <div class="footer-widget">
+              <h4 class="footer-widget-title">
+                {{ footerData.footerLinkTitleFour }}
+              </h4>
+              <div class="footer-widget-content">
+                <ul>
+                  <li
+                    v-for="(nav, index) in footerData.navListFour"
+                    :key="index"
+                  >
+                    <n-link :to="nav.navUrl">{{ nav.navTitle }}</n-link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Footer Widget End -->
         </div>
+        <!-- Footer Top Widgets End -->
+
+        <!-- Footer Copyright Start -->
+        <div class="row">
+          <div class="col">
+            <p class="copyright">
+              &copy; 2022 <a href="#">Yayasan Yohanes Gabriel</a>. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+        <!-- Footer Copyright End -->
+      </div>
     </div>
   </div>
 </template>
 
 <script>
- import footerData from '~/data/footer.json';
+import footerData from "~/data/footer.json";
 export default {
   components: {
     Navigation: () => import("@/components/Navigation"),
@@ -257,7 +254,7 @@ export default {
   data() {
     return {
       isSticky: false,
-      footerData
+      footerData,
     };
   },
 
@@ -284,14 +281,14 @@ export default {
     },
 
     //offcanvas search
-    toggleClass(addRemoveClass, className) {
-      const el = document.querySelector("#search-popup");
-      if (addRemoveClass === "addClass") {
-        el.classList.add(className);
-      } else {
-        el.classList.remove(className);
-      }
-    },
+    // toggleClass(addRemoveClass, className) {
+    //   const el = document.querySelector("#search-popup");
+    //   if (addRemoveClass === "addClass") {
+    //     el.classList.add(className);
+    //   } else {
+    //     el.classList.remove(className);
+    //   }
+    // },
   },
 };
 </script>

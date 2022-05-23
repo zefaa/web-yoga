@@ -5,7 +5,7 @@
 
         <OffCanvasMobileMenu />
 
-        <SearchPopup />
+        
 
         <HeroFixedBanner />
 
@@ -35,7 +35,7 @@
         components: {
             TheHeader: () => import('@/components/TheHeader'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            SearchPopup: () => import('@/components/SearchPopup'),
+           
             HeroFixedBanner: () => import('@/components/HeroFixedBanner'),
             AboutTwo: () => import('@/components/AboutTwo'),
             FunFcat: () => import('@/components/FunFcat'),

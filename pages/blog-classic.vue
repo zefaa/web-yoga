@@ -5,7 +5,7 @@
 
         <OffCanvasMobileMenu />
 
-        <SearchPopup />
+
 
         <BreadcrumbOne :items="items" title="Find all our latest news, insights, and events" backgroundUrl= "/images/bg/breadcrumb-bg-four.jpg" />
 
@@ -86,7 +86,7 @@
         components: {
             TheHeader: () => import('@/components/TheHeader'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            SearchPopup: () => import('@/components/SearchPopup'),
+           
             BreadcrumbOne: () => import('@/components/BreadcrumbOne'),
             BlogSidebar: () => import('@/components/BlogSidebar'),
             CallToActionTwo: () => import('@/components/CallToActionTwo'),

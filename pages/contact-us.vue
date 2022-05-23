@@ -5,7 +5,7 @@
 
         <OffCanvasMobileMenu />
 
-        <SearchPopup />
+       
 
         <BreadcrumbOne :items="items" title="We are an agency located in New York" backgroundUrl= "/images/bg/breadcrumb-bg-five.jpg" />
 
@@ -33,7 +33,7 @@
         components: {
             TheHeader: () => import('@/components/TheHeader'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            SearchPopup: () => import('@/components/SearchPopup'),
+            
             BreadcrumbOne: () => import('@/components/BreadcrumbOne'),
             CallToActionOne: () => import('@/components/CallToActionOne'),
             ContactForm: () => import('@/components/ContactForm'),

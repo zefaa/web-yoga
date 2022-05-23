@@ -1,7 +1,7 @@
 <template>
     <div class="blog">
         <div class="thumbnail">
-            <n-link to="/blog-details" class="image">
+            <n-link to="/news/news-details" class="image">
                 <img :src="blog.imgSrc" :alt="blog.title">
             </n-link>
         </div>
@@ -14,7 +14,7 @@
             <h3 class="title">
                 <n-link to="/blog-details">{{ blog.title }}</n-link>
             </h3>
-            <n-link to="/blog-details" class="link">
+            <n-link to="/news/news-details" class="link">
                 <mark>Selengkapnya</mark>
             </n-link>
         </div>

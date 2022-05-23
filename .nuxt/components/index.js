@@ -29,7 +29,6 @@ export { default as OffCanvasMobileMenu } from '../../components/OffCanvasMobile
 export { default as PortfolioGallery } from '../../components/PortfolioGallery.vue'
 export { default as PortfolioGalleryTwo } from '../../components/PortfolioGalleryTwo.vue'
 export { default as ProjectWrapper } from '../../components/ProjectWrapper.vue'
-export { default as SearchPopup } from '../../components/SearchPopup.vue'
 export { default as SectionTitle } from '../../components/SectionTitle.vue'
 export { default as ServiceItem } from '../../components/ServiceItem.vue'
 export { default as ServiceWrapper } from '../../components/ServiceWrapper.vue'

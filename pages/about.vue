@@ -2,8 +2,6 @@
   <div class="main-container">
     <OffCanvasMobileMenu />
 
-    <SearchPopup />
-
     <BreadcrumbOne
       :items="items"
       title="MEWUJUDKAN PENDIDIKAN KATOLIK
@@ -116,8 +114,8 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
       <!-- Animation Shape End -->
     </div>
     <CallToActionOne />
-    <div class="line" style=""><hr /></div>
-    <!-- <CallToActionThree /> -->
+    <div class="line"><hr /></div>
+
     <div class="cta-section section-padding-250">
       <div class="container text-center icon-up-down-animation">
         <!-- Section Title Start -->
@@ -371,9 +369,6 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
       </div>
     </div>
 
-    <!-- <AboutFour /> -->
-   
-
     <section
       class="timeline-area responsive-content area-padding theme-bg-gray"
     >
@@ -394,7 +389,9 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="timeline-list">
                 <div class="happening row" style="margin-bottom: 40px">
                   <div class="happening__period col-md-3 col-sm-6 col-xs-15">
-                    <h4 class="year__item-title" style="text-align: center">1925-1928</h4>
+                    <h4 class="year__item-title" style="text-align: center">
+                      1925-1928
+                    </h4>
                     <div class="time__item-bg time__bg">
                       <div class="image-content">
                         <div class="image-box">
@@ -433,7 +430,9 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
 
                 <div class="happening row" style="margin-bottom: 40px">
                   <div class="happening__period col-md-3 col-sm-6 col-xs-15">
-                    <h4 class="year__item-title" style="text-align: center">1960</h4>
+                    <h4 class="year__item-title" style="text-align: center">
+                      1960
+                    </h4>
                     <div class="time__item-bg time__bg-2"></div>
                     <div class="image-content">
                       <div class="image-box">
@@ -469,7 +468,9 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
 
                 <div class="happening row" style="margin-bottom: 40px">
                   <div class="happening__period col-md-3 col-sm-6 col-xs-15">
-                    <h4 class="year__item-title" style="text-align: center">1997</h4>
+                    <h4 class="year__item-title" style="text-align: center">
+                      1997
+                    </h4>
                     <div class="time__item-bg time__bg-3"></div>
                     <div class="image-content">
                       <div class="image-box">
@@ -511,7 +512,9 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
                   <div class="happening__period col-md-3 col-sm-6 col-xs-15">
                     <!-- <div class="happening__period happening__periodlast theme-afr col-md-3 col-sm-6 col-xs-12"> -->
 
-                    <h4 class="year__item-title" style="text-align: center">2001-Sekarang</h4>
+                    <h4 class="year__item-title" style="text-align: center">
+                      2001-Sekarang
+                    </h4>
                     <div class="time__item-bg time__bg-4"></div>
                     <div class="image-content">
                       <div class="image-box">
@@ -561,24 +564,15 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
       </div>
       <!-- end timeline-fluid -->
     </section>
-    <!-- <TestimonialSectionOne :style="{backgroundColor: '#f8faff'}" /> -->
   </div>
 </template>
 
 <script>
 export default {
   components: {
-    TheHeader: () => import("@/components/TheHeader"),
     OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
-    SearchPopup: () => import("@/components/SearchPopup"),
     BreadcrumbOne: () => import("@/components/BreadcrumbOne"),
-    AboutTwo: () => import("@/components/AboutTwo"),
-    CallToActionVideo: () => import("@/components/CallToActionVideo"),
-    AboutFour: () => import("@/components/AboutFour"),
-    TestimonialSectionOne: () => import("@/components/TestimonialSectionOne"),
-    CallToActionThree: () => import("@/components/CallToActionThree"),
     CallToActionOne: () => import("@/components/CallToActionOne"),
-    TheFooter: () => import("@/components/TheFooter"),
     ShapeWithAnimation: () => import("@/components/ShapeWithAnimation"),
   },
 
@@ -598,44 +592,6 @@ export default {
         {
           src: "https://www.youtube.com/watch?v=eS9Qm4AOOBY",
         },
-      ],
-      shapeData: [
-        {
-          // imgSrc: "/images/icon-animation/icon-agreement.png",
-          // className: "shape-1",
-        },
-        {
-          // imgSrc: "/images/icon-animation/icon-conversation.png",
-          // className: "shape-2",
-        },
-        {
-          // imgSrc: "/images/icon-animation/icon-freedom.png",
-          // className: "shape-3",
-        },
-        {
-          // imgSrc: "/images/icon-animation/icon-idea.png",
-          // className: "shape-4",
-        },
-        {
-          // imgSrc: "/images/icon-animation/icon-muscle.png",
-          // className: "shape-5",
-        },
-        {
-          // imgSrc: "/images/icon-animation/icon-etica.png",
-          // className: "shape-6",
-        },
-        // {
-        //     imgSrc:"/images/icon-animation/icon-comm.png",
-        //     className:"shape-7"
-        // },
-        {
-          // imgSrc: "/images/icon-animation/icon-comm.png",
-          // className: "shape-9",
-        },
-        // {
-        //     imgSrc:"/images/icon-animation/icon-9.png",
-        //     className:"shape-9"
-        // }
       ],
     };
   },

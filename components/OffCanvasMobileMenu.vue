@@ -4,9 +4,10 @@
         <div class="inner custom-scrollbar">
             <div class="mobile-header">
                 <div class="logo">
-                    <n-link to="/">
-                        <img src="/images/logo/logo.png" alt="site logo">
-                    </n-link>
+                    <n-link to="/" style="
+    color: white;">
+                  Yohanes Gabriel
+                </n-link>
                 </div>
                 <button class="mobile-close-btn" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></button>
             </div>

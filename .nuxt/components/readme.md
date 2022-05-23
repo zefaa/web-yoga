@@ -37,7 +37,6 @@ You can directly use them in pages and other components without the need to impo
 - `<PortfolioGallery>` | `<portfolio-gallery>` (components/PortfolioGallery.vue)
 - `<PortfolioGalleryTwo>` | `<portfolio-gallery-two>` (components/PortfolioGalleryTwo.vue)
 - `<ProjectWrapper>` | `<project-wrapper>` (components/ProjectWrapper.vue)
-- `<SearchPopup>` | `<search-popup>` (components/SearchPopup.vue)
 - `<SectionTitle>` | `<section-title>` (components/SectionTitle.vue)
 - `<ServiceItem>` | `<service-item>` (components/ServiceItem.vue)
 - `<ServiceWrapper>` | `<service-wrapper>` (components/ServiceWrapper.vue)

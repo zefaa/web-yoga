@@ -14,20 +14,6 @@
     "_name": "_1d3abcae"
   },
   {
-    "name": "blog-details",
-    "path": "/blog-details",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/blog-details.vue",
-    "chunkName": "pages/blog-details",
-    "_name": "_fef3f94e"
-  },
-  {
-    "name": "blog-grid",
-    "path": "/blog-grid",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/blog-grid.vue",
-    "chunkName": "pages/blog-grid",
-    "_name": "_6fabb882"
-  },
-  {
     "name": "contact-us",
     "path": "/contact-us",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/contact-us.vue",
@@ -70,13 +56,6 @@
     "_name": "_abb67472"
   },
   {
-    "name": "project-details",
-    "path": "/project-details",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/project-details.vue",
-    "chunkName": "pages/project-details",
-    "_name": "_2c438c88"
-  },
-  {
     "name": "service",
     "path": "/service",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/service.vue",
@@ -84,25 +63,32 @@
     "_name": "_6f391363"
   },
   {
-    "name": "unit",
-    "path": "/unit",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit.vue",
-    "chunkName": "pages/unit",
-    "_name": "_56e76546"
+    "name": "news-news-details",
+    "path": "/news/news-details",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/news/news-details.vue",
+    "chunkName": "pages/news/news-details",
+    "_name": "_27653cb2"
   },
   {
-    "name": "unit-detail",
-    "path": "/unit-detail",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit-detail.vue",
-    "chunkName": "pages/unit-detail",
-    "_name": "_79cd33e8"
+    "name": "news-news-page",
+    "path": "/news/news-page",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/news/news-page.vue",
+    "chunkName": "pages/news/news-page",
+    "_name": "_444d1bcf"
   },
   {
-    "name": "unit2",
-    "path": "/unit2",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit2.vue",
-    "chunkName": "pages/unit2",
-    "_name": "_f3c62648"
+    "name": "unit-unit-details",
+    "path": "/unit/unit-details",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit/unit-details.vue",
+    "chunkName": "pages/unit/unit-details",
+    "_name": "_119ad352"
+  },
+  {
+    "name": "unit-unit-page",
+    "path": "/unit/unit-page",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit/unit-page.vue",
+    "chunkName": "pages/unit/unit-page",
+    "_name": "_18c0092f"
   },
   {
     "name": "index",

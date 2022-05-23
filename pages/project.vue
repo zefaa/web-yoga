@@ -5,7 +5,7 @@
 
         <OffCanvasMobileMenu />
 
-        <SearchPopup />
+       
 
         <BreadcrumbOne :items="items" title="We work with bold brands that we believe in" backgroundUrl= "/images/bg/breadcrumb-bg-two.jpg" />
 
@@ -29,7 +29,7 @@
         components: {
             TheHeader: () => import('@/components/TheHeader'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            SearchPopup: () => import('@/components/SearchPopup'),
+           
             BreadcrumbOne: () => import('@/components/BreadcrumbOne'),
             ProjectWrapper: () => import('@/components/ProjectWrapper'),
             CallToActionTwo: () => import('@/components/CallToActionTwo'),

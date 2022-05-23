@@ -2,7 +2,7 @@
     <div class="main-container">
         <OffCanvasMobileMenu />
 
-        <SearchPopup />
+        
 
         <BreadcrumbOne :items="items" title="Pendaftaran" backgroundUrl= "/images/bg/bannerJob.png" />
 
@@ -96,7 +96,7 @@
         components: {
             TheHeader: () => import('@/components/TheHeader'),
             OffCanvasMobileMenu: () => import('@/components/OffCanvasMobileMenu'),
-            SearchPopup: () => import('@/components/SearchPopup'),
+            
             BreadcrumbOne: () => import('@/components/BreadcrumbOne'),
             BlogSidebar: () => import('@/components/BlogSidebar'),
             CallToActionTwo: () => import('@/components/CallToActionTwo'),

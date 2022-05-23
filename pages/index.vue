@@ -185,7 +185,7 @@
       </div>
     </div>
 
-    <BrandLogoCarousel />
+    <!-- <BrandLogoCarousel /> -->
 
     <div class="section-padding" :style="{ backgroundColor: '#e9e9e9' }">
       <div class="container">
@@ -262,40 +262,9 @@
               </div>
               <!-- Section Title Two End -->
 
-              <!-- Agency List Start -->
-              <!-- <ul class="agency-list">
-                <li class="item">
-                  <div class="icon">
-                    <i class="fas fa-check"></i>
-                  </div>
-                  <div class="text">
-                    Select & customize courses to your preferences
-                  </div>
-                </li>
-                <li class="item">
-                  <div class="icon">
-                    <i class="fas fa-check"></i>
-                  </div>
-                  <div class="text">Change the tutor and make arrangements</div>
-                </li>
-                <li class="item">
-                  <div class="icon">
-                    <i class="fas fa-check"></i>
-                  </div>
-                  <div class="text">Participate in events to join others</div>
-                </li>
-                <li class="item">
-                  <div class="icon">
-                    <i class="fas fa-check"></i>
-                  </div>
-                  <div class="text">
-                    Get the desired certificate delivered at house
-                  </div>
-                </li>
-              </ul> -->
-              <!-- Agency List End -->
+            
               <n-link
-                to="/contact-us"
+                to="/form"
                 class="btn btn-primary btn-hover-secondary"
               >
                 DAFTAR DISINI
@@ -347,12 +316,12 @@ export default {
     };
   },
   components: {
+    OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
     BlogGridItem: () => import("@/components/BlogGridItem"),
     SectionTitle: () => import("@/components/SectionTitle"),
     ShapeWithAnimation: () => import("@/components/ShapeWithAnimation"),
-    BrandLogoCarousel: () => import("@/components/BrandLogoCarousel"),
+    // BrandLogoCarousel: () => import("@/components/BrandLogoCarousel"),
   },
 };
 </script>
-
 
