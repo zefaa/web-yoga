@@ -5,12 +5,12 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _54f271bb = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _16220c50 = () => interopDefault(import('../pages/news/index.vue' /* webpackChunkName: "pages/news/index" */))
+const _a46f416e = () => interopDefault(import('../pages/unit/index.vue' /* webpackChunkName: "pages/unit/index" */))
 const _27653cb2 = () => interopDefault(import('../pages/news/news-details.vue' /* webpackChunkName: "pages/news/news-details" */))
-const _444d1bcf = () => interopDefault(import('../pages/news/news-page.vue' /* webpackChunkName: "pages/news/news-page" */))
 const _df92641c = () => interopDefault(import('../pages/registration/employee.vue' /* webpackChunkName: "pages/registration/employee" */))
 const _11afb048 = () => interopDefault(import('../pages/registration/students.vue' /* webpackChunkName: "pages/registration/students" */))
 const _119ad352 = () => interopDefault(import('../pages/unit/unit-details.vue' /* webpackChunkName: "pages/unit/unit-details" */))
-const _18c0092f = () => interopDefault(import('../pages/unit/unit-page.vue' /* webpackChunkName: "pages/unit/unit-page" */))
 const _74aa4c80 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -29,13 +29,17 @@ export const routerOptions = {
     component: _54f271bb,
     name: "about"
   }, {
+    path: "/news",
+    component: _16220c50,
+    name: "news"
+  }, {
+    path: "/unit",
+    component: _a46f416e,
+    name: "unit"
+  }, {
     path: "/news/news-details",
     component: _27653cb2,
     name: "news-news-details"
-  }, {
-    path: "/news/news-page",
-    component: _444d1bcf,
-    name: "news-news-page"
   }, {
     path: "/registration/employee",
     component: _df92641c,
@@ -48,10 +52,6 @@ export const routerOptions = {
     path: "/unit/unit-details",
     component: _119ad352,
     name: "unit-unit-details"
-  }, {
-    path: "/unit/unit-page",
-    component: _18c0092f,
-    name: "unit-unit-page"
   }, {
     path: "/",
     component: _74aa4c80,

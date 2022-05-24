@@ -12,7 +12,7 @@
                 
             </ul>
             <h3 class="title">
-                <n-link to="/blog-details">{{ blog.title }}</n-link>
+                <n-link to="/news/news-details">{{ blog.title }}</n-link>
             </h3>
             <n-link to="/news/news-details" class="link">
                 <mark>Selengkapnya</mark>

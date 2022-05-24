@@ -35,10 +35,10 @@
                       <n-link to="/about">Tentang</n-link>
                     </li>
                     <li>
-                      <n-link to="/unit/unit-page">Unit</n-link>
+                      <n-link to="/unit">Unit</n-link>
                     </li>
                     <li>
-                      <n-link to="/news/news-page">Berita</n-link>
+                      <n-link to="/news">Berita</n-link>
                     </li>
                     <li>
                       <n-link to="/about">Event</n-link>

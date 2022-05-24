@@ -3,48 +3,56 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_54f271bb"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/news/index.vue",
+    "chunkName": "pages/news/index",
+    "_name": "_16220c50"
+  },
+  {
+    "name": "unit",
+    "path": "/unit",
+    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit/index.vue",
+    "chunkName": "pages/unit/index",
+    "_name": "_a46f416e"
   },
   {
     "name": "news-news-details",
     "path": "/news/news-details",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/news/news-details.vue",
-    "chunkName": "pages/news/news-details"
-  },
-  {
-    "name": "news-news-page",
-    "path": "/news/news-page",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/news/news-page.vue",
-    "chunkName": "pages/news/news-page"
+    "chunkName": "pages/news/news-details",
+    "_name": "_27653cb2"
   },
   {
     "name": "registration-employee",
     "path": "/registration/employee",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/registration/employee.vue",
-    "chunkName": "pages/registration/employee"
+    "chunkName": "pages/registration/employee",
+    "_name": "_df92641c"
   },
   {
     "name": "registration-students",
     "path": "/registration/students",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/registration/students.vue",
-    "chunkName": "pages/registration/students"
+    "chunkName": "pages/registration/students",
+    "_name": "_11afb048"
   },
   {
     "name": "unit-unit-details",
     "path": "/unit/unit-details",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit/unit-details.vue",
-    "chunkName": "pages/unit/unit-details"
-  },
-  {
-    "name": "unit-unit-page",
-    "path": "/unit/unit-page",
-    "component": "/Users/imavi3/yoga-project/web-yoga/pages/unit/unit-page.vue",
-    "chunkName": "pages/unit/unit-page"
+    "chunkName": "pages/unit/unit-details",
+    "_name": "_119ad352"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/imavi3/yoga-project/web-yoga/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_74aa4c80"
   }
 ]

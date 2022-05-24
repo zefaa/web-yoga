@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import blogData from "~/data/blog.json";
+// import blogData from "~/data/blog.json";
 
 export default {
   components: {
@@ -56,7 +56,45 @@ export default {
 
   data() {
     return {
-      blogData,
+      // blogData,
+      blogData: [
+        {
+          title: "Lorem ipsum",
+          date: "1 Maret 2020",
+          author: "Admin",
+          imgSrc: "/images/blog/370/blog1.png",
+        },
+        {
+          title: "Lorem ipsum",
+          date: "1 Maret 2020",
+          author: "Admin",
+          imgSrc: "/images/blog/370/blog1.png",
+        },
+        {
+          title: "Lorem ipsum",
+          date: "1 Maret 2020",
+          author: "Admin",
+          imgSrc: "/images/blog/370/blog1.png",
+        },
+        {
+          title: "Lorem ipsum",
+          date: "1 Maret 2020",
+          author: "Admin",
+          imgSrc: "/images/blog/370/blog1.png",
+        },
+        {
+          title: "Lorem ipsum",
+          date: "1 Maret 2020",
+          author: "Admin",
+          imgSrc: "/images/blog/370/blog1.png",
+        },
+        {
+          title: "Lorem ipsum",
+          date: "1 Maret 2020",
+          author: "Admin",
+          imgSrc: "/images/blog/370/blog1.png",
+        },
+      ],
 
       items: [
         {

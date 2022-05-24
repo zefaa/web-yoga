@@ -9,10 +9,10 @@
           <n-link to="/about">Tentang</n-link>
         </li>
         <li>
-          <n-link to="/unit/unit-page">Unit</n-link>
+          <n-link to="/unit">Unit</n-link>
         </li>
         <li>
-          <n-link to="/blog-grid">Berita</n-link>
+          <n-link to="/news">Berita</n-link>
         </li>
 
         <li class="menu-item-has-children">
