@@ -7,7 +7,7 @@
       backgroundUrl="/images/bg/bannerNews.png"
     />
 
-    <!-- Blog Section Start -->
+    <!-- News Section Start -->
     <div class="section-padding fix">
       <div class="container">
         <div
@@ -16,8 +16,8 @@
             mtn-30
           "
         >
-          <div class="col mt-30" v-for="(blog, index) in blogData" :key="index">
-            <BlogGridItem :blog="blog" />
+          <div class="col mt-30" v-for="(news, index) in newsData" :key="index">
+            <BlogGridItem :news="news" />
           </div>
         </div>
 
@@ -57,7 +57,7 @@ export default {
   data() {
     return {
       // blogData,
-      blogData: [
+      newsData: [
         {
           title: "Lorem ipsum",
           date: "1 Maret 2020",

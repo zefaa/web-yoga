@@ -7,7 +7,7 @@
       backgroundUrl="/images/bg/bannerNews.png"
     />
 
-    <!-- Blog Section Start -->
+    <!-- News Section Start -->
     <div class="section-padding fix">
       <div class="container">
         <!-- <div class="row  mtn-50"> -->
@@ -15,21 +15,21 @@
           <!-- <div class="col-lg-8 col-12 order-lg-1 mt-50"> -->
           <div class="order-lg-1 mt-50">
             <div class="row row-cols-1 no-gutters">
-              <!-- Blog Start -->
-              <div class="col mt-30" v-for="(blogData, index) in blogData" :key="index">
+              <!-- News Start -->
+              <div class="col mt-30" v-for="(newsData, index) in newsData" :key="index">
               <div class="blog-3 blog-details col" data-aos="fade-up">
                 <div class="info">
                   <div class="thumbnail">
                     <img
                       class="w-100"
                       alt="Blog Image"
-                      :src=blogData.imgSrc
+                      :src=newsData.imgSrc
                     />
                     
                   </div>
                   <ul class="meta mb-0 mt-4">
                     <li>
-                      <i class="fal fa-pencil-alt"></i>Ditulis oleh {{blogData.author}}, {{blogData.date}}
+                      <i class="fal fa-pencil-alt"></i>Ditulis oleh {{newsData.author}}, {{newsData.date}}
                     </li>
                     <!-- <li><i class="fas fa-tags"></i>Marketing, UX Design</li> -->
                     <!-- <li><i class="fas fa-comments"></i>4 Comments</li> -->
@@ -51,7 +51,7 @@
                     KEPADA SISWA MELALUI PENDALAMAN
                   </h3> -->
                   <h3 class="title" style="text-align: center">
-                    {{blogData.title}}
+                    {{newsData.title}}
                   </h3>
                   <!-- <div class="desc" style="text-align: justify">
                     <p>
@@ -91,18 +91,18 @@
                   </div> -->
 
                    <div class="desc" style="text-align: justify">
-                   {{blogData.desc}}
+                   {{newsData.desc}}
                   </div>
                 </div>
               </div>
-              <!-- Blog End -->
+              <!-- News End -->
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Blog Section End -->
+    <!-- News Section End -->
   </div>
 </template>
 
@@ -117,7 +117,7 @@ export default {
 
   data() {
     return {
-      blogData : [
+      newsData : [
         {
           imgSrc: "/images/blog/770/rabu-abu.png",
           title: "SMPK KARITAS II KENALKAN ARTI PANTANG DAN PUASA RABU ABU KEPADA SISWA MELALUI PENDALAMAN",

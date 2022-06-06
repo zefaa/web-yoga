@@ -176,10 +176,10 @@
         >
           <div
             class="col mt-30"
-            v-for="(blog, index) in blogData.slice(0, 3)"
+            v-for="(news, index) in blogData.slice(0, 3)"
             :key="index"
           >
-            <BlogGridItem :blog="blog" />
+            <BlogGridItem :news="news" />
           </div>
         </div>
       </div>

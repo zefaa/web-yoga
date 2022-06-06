@@ -8,7 +8,7 @@
       backgroundUrl="/images/bg/bannerJob.png"
     />
 
-    <!-- Blog Section Start -->
+    <!-- Emplpoyee Section Start -->
     <div class="section-padding fix">
       <div class="container">
         <!-- <div class="row  mtn-50"> -->
@@ -16,7 +16,7 @@
           <!-- <div class="col-lg-8 col-12 order-lg-1 mt-50"> -->
           <div class="order-lg-1 mt-50">
             <div class="row row-cols-1 no-gutters">
-              <!-- Blog Start -->
+              <!-- Employee Start -->
               <div class="blog-3 blog-details col" data-aos="fade-up">
                 <div class="thumbnail">
                   <img
@@ -121,15 +121,13 @@
         </div>
       </div>
     </div>
-    <!-- Blog Section End -->
+    <!-- Employee Section End -->
 
     <CallToActionTwo />
   </div>
 </template>
 
 <script>
-import blogData from "~/data/blog.json";
-
 export default {
   components: {
     OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
@@ -140,8 +138,6 @@ export default {
 
   data() {
     return {
-      blogData,
-
       items: [
         {
           text: "Beranda",

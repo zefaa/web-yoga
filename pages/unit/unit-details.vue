@@ -10,11 +10,11 @@
       backgroundUrl="/images/bg/unitbg.png"
     />
 
-    <!-- Start Work Details -->
+    
     <div class="section-padding">
       <div class="container">
         <div class="row">
-          <!-- Portfolio Left -->
+          
           <div class="col-lg-4 col-md-6 col-12">
             <div class="work-left work-details" data-aos="fade-up">
               <div class="portfolio-main-info">
@@ -22,7 +22,7 @@
                   TENTANG TKK ST. MARIA SIDOARJO 
                   
                 </h2>
-                <!-- Start Details List -->
+                
                 <div class="work-details-list mt-40">
                   <div class="details-list">
                     <label>Berdiri</label>
@@ -48,8 +48,7 @@
                     <li>Lomba Paduan Suara Juara 3 di Dempo, Malang</li>
                   </div>
                 </div>
-                <!-- End Details List -->
-                <!-- Start Work Share -->
+                
                 <!-- <div class="work-share">
                   <h6 class="heading heading-h6">SHARE</h6>
                 </div> -->
@@ -57,7 +56,7 @@
             </div>
           </div>
 
-          <!-- Work Right -->
+         
           <div class="col-lg-7 col-md-6 offset-lg-1 col-12">
             <div class="work-left work-details mt-30">
               <div class="work-main-info">
@@ -109,7 +108,7 @@
           </div>
         </div>
 
-        <!-- Start Thumbnail -->
+      
         <div class="row">
           <div class="col-lg-12">
             <div class="custom-column-thumbnail mt-60" data-aos="fade-up">
@@ -122,7 +121,7 @@
           </div>
         </div>
 
-        <!-- Start Digital Marketion Area -->
+       
         <div class="row mt-60">
           <div class="col-lg-4 col-md-12 col-12">
             <div class="digital-marketing" data-aos="fade-up">
@@ -142,9 +141,8 @@
             </div>
           </div>
         </div>
-        <!-- End Digital Marketion Area -->
+       
 
-        <!-- Start Gallery Area -->
         <div class="custom-layout-gallery mt-60">
           <div class="row mtn-30">
             <div class="col-lg-6 col-md-6 col-12 mt-30">
@@ -177,10 +175,10 @@
             </div>
           </div>
         </div>
-        <!-- End Gallery Area -->
+       
       </div>
     </div>
-    <!-- Start Work Details -->
+ 
 
   </div>
 </template>

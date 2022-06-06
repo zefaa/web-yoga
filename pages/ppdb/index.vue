@@ -51,21 +51,17 @@ YAYASAN YOHANNES GABRIEL PERWAKILAN I"
           <div
             class="col mix"
             :class="ppdb.category"
-            v-for="(ppdb, index) in ppdbData.ppdb"
+            v-for="(ppdb, index) in ppdbData"
             :key="index"
           >
             <div class="single-portfolio">
-             
               <div class="thumbnail">
-                 
                 <img class="img-fluid" :src="ppdb.imgSrc" :alt="ppdb.title" />
-              
               </div>
-              
+
               <div class="content">
                 <h5 class="title">
                   <n-link to="#">{{ ppdb.title }}</n-link>
-                  
                 </h5>
               </div>
             </div>
@@ -77,12 +73,38 @@ YAYASAN YOHANNES GABRIEL PERWAKILAN I"
 </template>
 
 <script>
-import ppdbData from "~/data/ppdb.json";
+// import ppdbData from "~/data/ppdb.json";
 
 export default {
   data() {
     return {
-      ppdbData,
+      ppdbData: [
+        {
+          imgSrc: "/images/ppdb/TK1.png",
+          title: "TK I YOGA",
+          category: "tk",
+        },
+        {
+          imgSrc: "/images/ppdb/SD1.png",
+          title: "SD I YOGA",
+          category: "sd",
+        },
+        {
+          imgSrc: "/images/ppdb/SMP1.png",
+          title: "SMP I YOGA",
+          category: "smp",
+        },
+        {
+          imgSrc: "/images/ppdb/SMP2.png",
+          title: "SMP II YOGA",
+          category: "smp",
+        },
+        {
+          imgSrc: "/images/ppdb/SMA1.png",
+          title: "SMA I YOGA",
+          category: "sma",
+        },
+      ],
       mixer: null,
       items: [
         {

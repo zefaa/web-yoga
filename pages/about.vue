@@ -137,7 +137,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="content">
                 <div class="box">
                   <div class="info">
-                    <!-- <h4 class="title">Help Desk</h4> -->
+                   
                     <span
                       class="info-text"
                       style="
@@ -198,7 +198,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="content">
                 <div class="box">
                   <div class="info">
-                    <!-- <h4 class="title">Help Desk</h4> -->
+                   
                     <span
                       class="info-text"
                       style="
@@ -226,7 +226,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="content">
                 <div class="box">
                   <div class="info">
-                    <!-- <h4 class="title">Give Us A Call</h4> -->
+                   
                     <span
                       class="info-text"
                       style="
@@ -254,7 +254,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="content">
                 <div class="box">
                   <div class="info">
-                    <!-- <h4 class="title">Help Desk</h4> -->
+                   
                     <span
                       class="info-text"
                       style="
@@ -282,7 +282,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="content">
                 <div class="box">
                   <div class="info">
-                    <!-- <h4 class="title">Help Desk</h4> -->
+                    
                     <span
                       class="info-text"
                       style="
@@ -309,7 +309,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="content">
                 <div class="box">
                   <div class="info">
-                    <!-- <h4 class="title">Help Desk</h4> -->
+                   
                     <span
                       class="info-text"
                       style="
@@ -332,7 +332,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="content">
                 <div class="box">
                   <div class="info">
-                    <!-- <h4 class="title">Help Desk</h4> -->
+                    
                     <span
                       class="info-text"
                       style="
@@ -379,7 +379,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               <div class="avivon-heading">
                 <h2 class="avivon__title">Sejarah Singkat</h2>
               </div>
-              <!-- end avivon-heading -->
+             
             </div>
             <!-- end col-md-12 -->
           </div>
