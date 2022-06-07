@@ -4,7 +4,7 @@
     <BreadcrumbOne
       :items="items"
       title="UNIT YAYASAN YOHANNES GABRIEL PERWAKILAN 1"
-      backgroundUrl="/images/bg/unitbg.png"
+      backgroundUrl="/images/bg/unit.png"
     />
 
     <Unit />

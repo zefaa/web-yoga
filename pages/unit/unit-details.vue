@@ -7,7 +7,7 @@
     <BreadcrumbOne
       :items="items"
       title="TKK ST. MARIA SIDOARJO"
-      backgroundUrl="/images/bg/unitbg.png"
+      backgroundUrl="/images/bg/unit-2.png"
     />
 
     
@@ -149,7 +149,7 @@
               <div class="thumbnail" data-aos="fade-up">
                 <img
                   class="w-100"
-                  src="/images/project/work-details-5.png"
+                  src="/images/project/unit-detail-1.png"
                   alt="Agency"
                 />
               </div>
@@ -158,7 +158,7 @@
               <div class="thumbnail" data-aos="fade-up">
                 <img
                   class="w-100"
-                  src="/images/project/work-details-6.png"
+                  src="/images/project/unit-detail-2.png"
                   alt="Agency"
                 />
               </div>

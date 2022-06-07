@@ -139,12 +139,12 @@
           <!-- Footer Widget End -->
 
           <!-- Footer Widget Start -->
-          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 mt-30">
+          <div class="col-md-4 col-sm-6 col-6 mt-30">
             <div class="footer-widget">
               <h4 class="footer-widget-title">
                 {{ footerData.footerLinkTitleOne }}
               </h4>
-              <div class="footer-widget-content">
+              <div class="footer-widget-content" style="text-align:center">
                 <ul>
                   <li
                     v-for="(nav, index) in footerData.navListOne"
@@ -159,12 +159,12 @@
           <!-- Footer Widget End -->
 
           <!-- Footer Widget Start -->
-          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
+          <div class="col-md-4 col-sm-4 col-6 mt-30">
             <div class="footer-widget">
               <h4 class="footer-widget-title">
                 {{ footerData.footerLinkTitleTwo }}
               </h4>
-              <div class="footer-widget-content">
+              <div class="footer-widget-content" style="text-align:center" >
                 <ul>
                   <li
                     v-for="(nav, index) in footerData.navListTwo"
@@ -179,7 +179,7 @@
           <!-- Footer Widget End -->
 
           <!-- Footer Widget Start -->
-          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
+          <!-- <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
             <div class="footer-widget">
               <h4 class="footer-widget-title">
                 {{ footerData.footerLinkTitleThree }}
@@ -195,11 +195,11 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Footer Widget End -->
 
           <!-- Footer Widget Start -->
-          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
+          <!-- <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mt-30">
             <div class="footer-widget">
               <h4 class="footer-widget-title">
                 {{ footerData.footerLinkTitleFour }}
@@ -215,7 +215,7 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Footer Widget End -->
         </div>
         <!-- Footer Top Widgets End -->

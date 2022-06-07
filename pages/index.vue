@@ -20,9 +20,9 @@
                     <div class="desc">
                       <p>{{ banner.text }}</p>
                     </div>
-                    <n-link to="/" class="btn btn-primary btn-hover-secondary"
+                    <!-- <n-link to="/" class="btn btn-primary btn-hover-secondary"
                       >Lebih Lanjut</n-link
-                    >
+                    > -->
                   </div>
                 </div>
               </div>
@@ -43,7 +43,7 @@
       <div class="container">
         <!-- Section Title Start -->
         <div class="section-title text-center" data-aos="fade-up">
-          <h2 class="title">Lorem Ipsum</h2>
+          <h2 class="title">Tentang Kami</h2>
           <!-- <p class="sub-title">Our team of designers, developers and creatives are perfectionists who love what they do and love</p> -->
         </div>
 
@@ -58,7 +58,7 @@
                             <img src="/images/about/agency_about_1.jpg" alt="images">
                         </div> -->
               <div class="about-image js-tilt">
-                <img src="/images/hero-image/teacher3.png" alt="images" />
+                <img src="/images/home/about.png" alt="images" />
               </div>
 
               <!-- Animation Shape Start -->
@@ -78,13 +78,21 @@
               <!-- Section Title Two Start -->
               <div class="section-title-two">
                 <!-- <span class="sub-title">Every day brings new challenges</span> -->
-                <h3 class="title">Lorem ipsum</h3>
+                <h3 class="title">
+                  Selamat bergabung di website resmi kami, Yayasan Yohannes
+                  Gabriel Perwakilan 1
+                </h3>
               </div>
               <!-- Section Title Two End -->
 
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>Yayasan Yohannes Gabriel Perwakilan 1
+                Surabaya adalah yayasan pendidikan yang mengelola
+                sekolah-sekolah Katolik di Keuskupan Surabaya. Kami terus
+                mengembangkan diri sesuai dengan gerak jaman agar dapat mendidik
+                generasi penerus dan masa depan gereja dan masyarakat. Melalui
+                media website berserta seluruh jejaring sosial yayasan, kami
+                juga berharap agar sekolah-sekolah kami makin dikenal sebagai
+                sekolah Katolik milik Keuskupan Surabaya yang dapat diandalkan.
               </p>
               <n-link
                 to="/about"
@@ -106,7 +114,7 @@
       <div class="container">
         <!-- Section Title Start -->
         <div class="section-title text-center" data-aos="fade-up">
-          <h2 class="title-light fz-32">Lorem Ipsum</h2>
+          <h2 class="title-light fz-32">Mengapa Yohannes Gabriel?</h2>
         </div>
         <!-- Section Title End -->
         <div class="row">
@@ -135,19 +143,20 @@
               </div>
               <div class="col mt-30" data-aos="fade-up">
                 <div class="funfact">
-                  <div class="number"><span class="counter">200</span>+</div>
-                  <h6 class="text">Guru</h6>
+                  <div class="number"><span class="counter">500</span>+</div>
+                  <h6 class="text">Tenaga Pendidik Berpengalaman</h6>
                 </div>
               </div>
               <!-- Funfact End -->
 
               <!-- Funfact Start -->
-              <div class="col mt-30" data-aos="fade-up">
+              <div class="col mt-40" data-aos="fade-up">
                 <div class="funfact">
-                  <div class="number"><span class="counter">1000</span>+</div>
-                  <h6 class="text">Siswa</h6>
+                  <div class="icon"><span class="fas fa-award" style="font-size:58px; color:white"></span></div>
+                  <h6 class="text" style="margin-top:15px">Terakreditasi</h6>
                 </div>
               </div>
+           
               <!-- Funfact End -->
 
               <!-- Funfact Start -->
@@ -163,8 +172,8 @@
       <div class="container">
         <!-- Section Title Start -->
         <SectionTitle
-          title="Lorem ipsum"
-          sub-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Berita"
+          sub-title="Berita Terkini Seputar Yayasan Yohannes Gabriel"
         />
         <!-- Section Title End -->
 
@@ -176,7 +185,7 @@
         >
           <div
             class="col mt-30"
-            v-for="(news, index) in blogData.slice(0, 3)"
+            v-for="(news, index) in newsData.slice(0, 3)"
             :key="index"
           >
             <BlogGridItem :news="news" />
@@ -190,9 +199,9 @@
     <div class="section-padding" :style="{ backgroundColor: '#e9e9e9' }">
       <div class="container">
         <SectionTitle
-          title="Lorem ipsum"
-          sub-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Agenda Kami"
         />
+         <!-- sub-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." -->
         <div class="skill-with-video-content">
           <!-- Section Title Two Start -->
 
@@ -238,7 +247,7 @@
             <div class="video-popup-area">
               <div class="skill-video">
                 <client-only>
-                  <img class="image" src="/images/team/staff.png" alt="image" />
+                  <img class="image" src="/images/home/karir.png" alt="image" />
                 </client-only>
               </div>
 
@@ -254,15 +263,13 @@
             <div class="skill-with-video-content">
               <!-- Section Title Two Start -->
               <div class="section-title-two">
-                <h3 class="title">Lorem ipsum</h3>
+                <h3 class="title">Berkarir Bersama Yayasan Yohannes Gabriel</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Bersama kita mewujudkan pribadi yang berintegritas dan berkarakter bagi gereja, bangsa, dan dunia.
                 </p>
               </div>
               <!-- Section Title Two End -->
 
-            
               <n-link
                 to="/registration/employee"
                 class="btn btn-primary btn-hover-secondary"
@@ -278,7 +285,7 @@
 </template>
 
 <script>
-import blogData from "~/data/blog.json";
+// import blogData from "~/data/blog.json";
 
 export default {
   data() {
@@ -298,19 +305,41 @@ export default {
           src: "https://www.youtube.com/watch?v=eS9Qm4AOOBY",
         },
       ],
-      blogData,
+      newsData: [
+        {
+          title:
+            "SDK St. Yusup Tropodo Sambut Bersama Masa Pertobatan Melalui Ibadat Prapaskah",
+          date: "4 Maret 2022",
+          author: "Admin",
+          imgSrc: "/images/home/news-1.png",
+        },
+        {
+          title:
+            "Retreat Grade 6 SDK St. Mary Undang RD. Alphonsus Boedi Prasetijo",
+          date: "23 Februari 2022",
+          author: "Admin",
+          imgSrc: "/images/home/news-2.png",
+        },
+        {
+          title:
+            "Pembelajaran Tatap Muka Sekolah Yohannes Gabriel Perwakilan I Surabaya, Perketat Prokes",
+          date: "25 Januari 2022",
+          author: "Admin",
+          imgSrc: "/images/home/news-3.png",
+        },
+      ],
       sliderData: [
         {
           id: 1,
           heading: "Pendidikan Katolik ",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          bgImgSrc: "/images/hero-image/teacher1.png",
+          text: "Mendidik Generasi Penerus dan Masa Depan Gereja dan Masyarakat",
+          bgImgSrc: "/images/home/home-1.png",
         },
         {
           id: 2,
           heading: "Pendidikan Katolik",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          bgImgSrc: "/images/hero-image/teacher2.png",
+          text: "Nilai-nilai Katolik Sebagai Pedoman Pembinaan Para Siswa",
+          bgImgSrc: "/images/home/home-2.png",
         },
       ],
     };

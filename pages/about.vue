@@ -6,7 +6,7 @@
       :items="items"
       title="MEWUJUDKAN PENDIDIKAN KATOLIK
 YANG MEMBENTUK PRIBADI BERINTEGRITAS"
-      backgroundUrl="/images/bg/tentang.png"
+      backgroundUrl="/images/bg/about-1.png"
     />
 
     <div class="section-padding-top about-section-padding-bottom-80">
@@ -26,10 +26,10 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
               "
             >
               <div class="about-image js-tilt">
-                <img src="/images/about/about-1.jpg" alt="image" />
+                <img src="/images/about/about-2.png" alt="image" />
               </div>
               <div class="about-image js-tilt">
-                <img src="/images/about/about-2.jpg" alt="image" />
+                <img src="/images/about/about-3.png" alt="image" />
               </div>
               <!-- Animation Shape Start -->
               <ShapeWithAnimation
@@ -54,9 +54,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
                   Gabriel Perwakilan 1.
                 </h4>
                 <p style="text-align: justify">
-                  Yayasan Yohannes Gabriel Perwakilan 1 Surabaya adalah yayasan
-                  pendidikan yang mengelola sekolah-sekolah Katolik di Keuskupan
-                  Surabaya. Sejak berdiri tahun 1925, yayasan ini ada dan terus
+                  Sejak berdiri tahun 1925, yayasan ini ada dan terus
                   memberikan yang terbaik untuk mencerdaskan kehidupan bangsa.
                   Kami terus mengembangkan diri sesuai dengan gerak jaman agar
                   dapat mendidik generasi penerus dan masa depan gereja dan
@@ -377,7 +375,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
           <div class="row">
             <div class="col-md-12 primary-padding-3">
               <div class="avivon-heading">
-                <h2 class="avivon__title">Sejarah Singkat</h2>
+                <h1 class="avivon__title mb-20" style="text-align:center">Sejarah Singkat</h1>
               </div>
              
             </div>

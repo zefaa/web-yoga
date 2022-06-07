@@ -10,24 +10,32 @@
     "footerLinkTitleOne": "Informasi Kontak",
     "navListOne": [
         {
-            "navTitle": "Jl. M H. Tamrin No.29-31, DR. Soetomo, Kec. Tegalsari",
+            "navTitle": "Jl. M H. Thamrin No.29-31, DR. Soetomo, Kec. Tegalsari",
             "navUrl": "" 
         }
         
     ],
-    "footerLinkTitleTwo": "Tentang Kami",
+    "footerLinkTitleTwo": "Jam Operasional",
     "navListTwo": [
         {
-            "navTitle": "Unit",
+            "navTitle": "Senin - Jumat: 07.00 - 14.00",
             "navUrl": "/" 
         },
         {
-            "navTitle": "Agenda",
+            "navTitle": "Sabtu : 07.00 - 12.00",
             "navUrl": "/" 
+        }
+    ],
+
+    "footerLinkTitleThree": "Tentang Kami",
+    "navListThree": [
+        {
+            "navTitle" : "Agenda",
+            "navUrl": "/"
         },
         {
-            "navTitle": "Karir",
-            "navUrl": "/" 
+            "navTitle": "Galeri",
+            "navUrl": "/"
         }
     ]
     
