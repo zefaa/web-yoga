@@ -5,7 +5,7 @@
       :items="items"
       title="POSTER PPDB UNIT SEKOLAH
 YAYASAN YOHANNES GABRIEL PERWAKILAN I"
-      backgroundUrl="/images/bg/ppdbg.png"
+      backgroundUrl="/images/bg/ppdb.png"
     />
 
     <div class="section-padding" :style="{ backgroundColor: '#f8faff' }">
@@ -44,7 +44,7 @@ YAYASAN YOHANNES GABRIEL PERWAKILAN I"
         <div
           class="
             row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1
-            no-gutters
+            gutters
             box
           "
         >
@@ -55,7 +55,7 @@ YAYASAN YOHANNES GABRIEL PERWAKILAN I"
             :key="index"
           >
             <div class="single-portfolio">
-              <div class="thumbnail">
+              <div class="thumbnail mb-30">
                 <img class="img-fluid" :src="ppdb.imgSrc" :alt="ppdb.title" />
               </div>
 
@@ -80,28 +80,63 @@ export default {
     return {
       ppdbData: [
         {
-          imgSrc: "/images/ppdb/TK1.png",
-          title: "TK I YOGA",
+          imgSrc: "/images/ppdb/tk-trop.png",
+          title: "TKK ST. YUSUP TROPODO",
           category: "tk",
         },
         {
-          imgSrc: "/images/ppdb/SD1.png",
-          title: "SD I YOGA",
+          imgSrc: "/images/ppdb/tk-3.png",
+          title: "TKK KARITAS III",
+          category: "tk",
+        },
+        {
+          imgSrc: "/images/ppdb/tk-wiyung.png",
+          title: "TKK ST. MARIA WIYUNG",
+          category: "tk",
+        },
+        {
+          imgSrc: "/images/ppdb/sd-unsur1.png",
+          title: "SDK UNTUNG SUROPATI I",
           category: "sd",
         },
         {
-          imgSrc: "/images/ppdb/SMP1.png",
-          title: "SMP I YOGA",
+          imgSrc: "/images/ppdb/sd-mary.png",
+          title: "SDK ST. MARY",
+          category: "sd",
+        },
+        {
+          imgSrc: "/images/ppdb/sd-katarina.png",
+          title: "SDK KATARINA",
+          category: "sd",
+        },
+        {
+          imgSrc: "/images/ppdb/smp-2.png",
+          title: "SMPK KARITAS II",
           category: "smp",
         },
         {
-          imgSrc: "/images/ppdb/SMP2.png",
-          title: "SMP II YOGA",
+          imgSrc: "/images/ppdb/smp-3.png",
+          title: "SMPK KARITAS III",
           category: "smp",
         },
         {
-          imgSrc: "/images/ppdb/SMA1.png",
-          title: "SMA I YOGA",
+          imgSrc: "/images/ppdb/smp-katarina.png",
+          title: "SMPK KATARINA",
+          category: "smp",
+        },
+        {
+          imgSrc: "/images/ppdb/sma-karpil.png",
+          title: "SMAK ST. YUSUP KARANGPILANG",
+          category: "sma",
+        },
+        {
+          imgSrc: "/images/ppdb/sma-3.png",
+          title: "SMAK KARITAS III",
+          category: "sma",
+        },
+        {
+          imgSrc: "/images/ppdb/sma-unsur.png",
+          title: "SMAK UNTUNG SUROPATI",
           category: "sma",
         },
       ],
@@ -112,7 +147,7 @@ export default {
           to: "/",
         },
         {
-          text: "Guru",
+          text: "PPDB",
           active: true,
         },
       ],

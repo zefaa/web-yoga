@@ -4,7 +4,7 @@
     <BreadcrumbOne
       :items="items"
       title="Berita"
-      backgroundUrl="/images/bg/bannerNews.png"
+      backgroundUrl="/images/bg/news-banner.png"
     />
 
     <!-- News Section Start -->
@@ -119,11 +119,11 @@ export default {
     return {
       newsData : [
         {
-          imgSrc: "/images/blog/770/rabu-abu.png",
-          title: "SMPK KARITAS II KENALKAN ARTI PANTANG DAN PUASA RABU ABU KEPADA SISWA MELALUI PENDALAMAN",
+          imgSrc: "/images/home/news-detail.png",
+          title: "SDK St. Yusup Tropodo Sambut Bersama Masa Pertobatan Melalui Ibadat Prapaskah",
           author: "Admin",
-          date: "1 Maret 2020",
-          desc: "<p> Hari Rabu Abu merupakan hari yang dinantikan oleh Umat Katolik di seluruh dunia. Hal ini juga menjadi momen penting termasuk bagi SMPK Karitas II. Bu Randu, Guru Agama SMPK Karitas II, mengajak seluruh siswa untuk menyambut masa Prapaskah melalui Pendalaman Rabu Abu pada Selasa, 1 Maret 2022. Tema yang diambil dalam pendalaman ini adalah “Apa itu Rabu Abu?”. Pendalaman Rabu Abu dengan tema tersebut diambil dalam rangka menyambut Masa Pra-Paskah. Sekolah ingin secara khusus lebih mengenalkan arti dan makna Rabu Abu, serta pentingnya puasa dan pantang dalam ajaran Gereja Katolik. Melibatkan seluruh siswa dari kelas 7 hingga kelas 9 sebanyak kurang lebih 100 peserta, acara ini berjalan dengan lancar. Dalam kegiatan ini dijelaskan materi tentang Rabu Abu, Pantang dan Puasa. Meskipun belum memasuki usia dewasa, tapi para siswa diajak untuk ikut berpartisipasi aktif dalam masa Pra-Paskah. </p>"
+          date: "4 Maret 2022",
+          desc: "Memasuki Masa Prapaskah, SDK St. Yusup Tropodo menyelenggarakan ibadat untuk mengajak para siswa dalam menyambut masa pertobatan. Ibadat ini diselenggarakan secara daring pada Selasa, 1 Maret 2022 lalu. Megambil tema “Bersatu dengan Yesus dalam Ekaristi”, kegiatan Ibadat ini melibatkan seluruh siswa dari kelas 1 hingga kelas 6 . Tema “Bersatu dengan Yesus dalam Ekaristi” ini diambil selaras dengan tema Keuskupan Surabaya, dimana kita sebagai Umat Katolik perlu kembali Bersatu dengan Yesus melalui Sakramen Ekaristi dimanapun berada. Meski merayakan Ekaristis dari rumah pun, diharapkan umat tetap dapat merasakan kesatuan dengan Kristus itu sendiri. Ibadat Prapaskah SDK St. Yusup Tropodo ini diselenggarakan dari pukul 07.00 – 10.00 dengan terbagi menjadi 3 sesi. Dalam Ibadat ini, para siswa diajak untuk mendengarkan Firman Tuhan, menyanyikan lagu, memahami pertobatan, membaca dan mendapatkan tugas ayat hafalan. Cara Hidup Jemaat Pertama yang tertuang dalam Kisah Para Rasul 2 : 41 -47 menjadi bahan perunangan siswa dalam menyambut masa Pra-paskah. Peserta yang hadir mencapai kurang lebih 500 siswa ini bersama-sama menyambut masa Prapraskah dengan antusias. Antusiasme siswa terlihat dari sikap mereka terhadap materi yang disampaikan. Tidak hanya itu, para siswa juga menyanyi serta memuji Tuhan dengan meriah. Pada dasarnya tujuan utama kegiatan Ibadat ini yakni agar siswa dapat mengenali, memahami, serta memaknai makna puasa-pantang dalam masa pertobatan. Para siswa juga diajak untuk menerapkan 5B dalam masa Pra-Paskah; yakni bertobat, berdoa, baca firman, berderma, dan berpuasa atau berpantang. "
         }
       ],
 

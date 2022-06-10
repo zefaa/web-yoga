@@ -114,7 +114,7 @@
             <div class="custom-column-thumbnail mt-60" data-aos="fade-up">
               <img
                 class="w-100"
-                src="/images/project/work-details-7.png"
+                src="/images/project/details-4.png"
                 alt="Agency"
               />
             </div>

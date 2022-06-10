@@ -5,7 +5,7 @@
     <BreadcrumbOne
       :items="items"
       title="Pendaftaran"
-      backgroundUrl="/images/bg/bannerJob.png"
+      backgroundUrl="/images/bg/karir-bg.png"
     />
 
     <!-- Emplpoyee Section Start -->
@@ -21,7 +21,7 @@
                 <div class="thumbnail">
                   <img
                     class="w-100"
-                    src="/images/blog/770/hireBanner.png"
+                    src="/images/bg/karir-1.png"
                     alt="Blog Image"
                   />
                 </div>

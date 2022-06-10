@@ -4,7 +4,7 @@
     <BreadcrumbOne
       :items="items"
       title="Berita"
-      backgroundUrl="/images/bg/bannerNews.png"
+      backgroundUrl="/images/bg/news-banner.png"
     />
 
     <!-- News Section Start -->
@@ -59,41 +59,45 @@ export default {
       // blogData,
       newsData: [
         {
-          title: "Lorem ipsum",
-          date: "1 Maret 2020",
+          title:
+            "SDK St. Yusup Tropodo Sambut Bersama Masa Pertobatan Melalui Ibadat Prapaskah",
+          date: "4 Maret 2022",
           author: "Admin",
-          imgSrc: "/images/blog/370/blog1.png",
+          imgSrc: "/images/home/news-1.png",
         },
         {
-          title: "Lorem ipsum",
-          date: "1 Maret 2020",
+         title:
+            "Retreat Grade 6 SDK St. Mary Undang RD. Alphonsus Boedi Prasetijo",
+          date: "23 Februari 2022",
           author: "Admin",
-          imgSrc: "/images/blog/370/blog1.png",
+          imgSrc: "/images/home/news-2.png",
         },
         {
-          title: "Lorem ipsum",
-          date: "1 Maret 2020",
+          title:
+            "Pembelajaran Tatap Muka Sekolah Yohannes Gabriel Perwakilan I Surabaya, Perketat Prokes",
+          date: "25 Januari 2022",
           author: "Admin",
-          imgSrc: "/images/blog/370/blog1.png",
+          imgSrc: "/images/home/news-3.png",
         },
         {
-          title: "Lorem ipsum",
-          date: "1 Maret 2020",
+          title: "Uji Kompetensi Guru YOGA I Serentak Diselenggarakan Untuk 316 Pendidik",
+          date: "14 Januari 2022",
           author: "Admin",
-          imgSrc: "/images/blog/370/blog1.png",
+          imgSrc: "/images/home/news-6.png",
         },
         {
-          title: "Lorem ipsum",
-          date: "1 Maret 2020",
+          title: "“Break Free From Toxic Circle in Pandemic” - Rekoleksi SMPK Katarina",
+          date: "18 Desember 2020",
           author: "Admin",
-          imgSrc: "/images/blog/370/blog1.png",
+          imgSrc: "/images/home/news-4.png",
         },
         {
-          title: "Lorem ipsum",
-          date: "1 Maret 2020",
+          title: "Webinar Parenting SDK St. Mary, Ajak Orang Tua Menjadi Hebat di Masa Pandemi",
+          date: "29 November 2020",
           author: "Admin",
-          imgSrc: "/images/blog/370/blog1.png",
+          imgSrc: "/images/home/news-5.png",
         },
+        
       ],
 
       items: [
