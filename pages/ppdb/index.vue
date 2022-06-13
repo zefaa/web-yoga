@@ -67,6 +67,16 @@ YAYASAN YOHANNES GABRIEL PERWAKILAN I"
             </div>
           </div>
         </div>
+
+        <div class="section-title-two mt-50">
+          <h1 class="title">Pertanyaan Seputar PPDB</h1>
+        </div>
+        <div class="col-12 mb-3">
+          <textarea name="message" placeholder="Silahkan mengirimkan pertanyaan Anda seputar PPDB"></textarea>
+        </div>
+        <div class="col-12 text-left">
+          <button class="btn btn-primary btn-hover-secondary">Kirim</button>
+        </div>
       </div>
     </div>
   </div>

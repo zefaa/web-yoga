@@ -394,7 +394,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
                       <div class="image-content">
                         <div class="image-box">
                           <img
-                            src="/images/icon-animation/icon_misi.png"
+                            src="/images/icon-animation/awal.jpg"
                             alt="Icon"
                           />
                         </div>
@@ -435,7 +435,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
                     <div class="image-content">
                       <div class="image-box">
                         <img
-                          src="/images/icon-animation/icon_misi.png"
+                          src="/images/icon-animation/1960.jpg"
                           alt="Icon"
                         />
                       </div>
@@ -517,7 +517,7 @@ YANG MEMBENTUK PRIBADI BERINTEGRITAS"
                     <div class="image-content">
                       <div class="image-box">
                         <img
-                          src="/images/icon-animation/icon_misi.png"
+                          src="/images/icon-animation/2013.jpg"
                           alt="Icon"
                         />
                       </div>
