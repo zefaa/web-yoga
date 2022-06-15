@@ -14,4 +14,8 @@ You can directly use them in pages and other components without the need to impo
 - `<OffCanvasMobileMenu>` | `<off-canvas-mobile-menu>` (components/OffCanvasMobileMenu.vue)
 - `<SectionTitle>` | `<section-title>` (components/SectionTitle.vue)
 - `<ShapeWithAnimation>` | `<shape-with-animation>` (components/ShapeWithAnimation.vue)
+- `<TeamMember>` | `<team-member>` (components/TeamMember.vue)
+- `<TeamOne>` | `<team-one>` (components/TeamOne.vue)
+- `<TestimonialItem>` | `<testimonial-item>` (components/TestimonialItem.vue)
+- `<TestimonialSectionOne>` | `<testimonial-section-one>` (components/TestimonialSectionOne.vue)
 - `<Unit>` | `<unit>` (components/Unit.vue)

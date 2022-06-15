@@ -291,7 +291,7 @@
     </div>
     <!-- Employee Section End -->
 
-    <CallToActionTwo />
+   
   </div>
 </template>
 
@@ -300,7 +300,7 @@ export default {
   components: {
     OffCanvasMobileMenu: () => import("@/components/OffCanvasMobileMenu"),
     BreadcrumbOne: () => import("@/components/BreadcrumbOne"),
-    CallToActionTwo: () => import("@/components/CallToActionTwo"),
+   
   },
 
   data() {

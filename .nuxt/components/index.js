@@ -6,6 +6,10 @@ export { default as MobileNavigation } from '../../components/MobileNavigation.v
 export { default as OffCanvasMobileMenu } from '../../components/OffCanvasMobileMenu.vue'
 export { default as SectionTitle } from '../../components/SectionTitle.vue'
 export { default as ShapeWithAnimation } from '../../components/ShapeWithAnimation.vue'
+export { default as TeamMember } from '../../components/TeamMember.vue'
+export { default as TeamOne } from '../../components/TeamOne.vue'
+export { default as TestimonialItem } from '../../components/TestimonialItem.vue'
+export { default as TestimonialSectionOne } from '../../components/TestimonialSectionOne.vue'
 export { default as Unit } from '../../components/Unit.vue'
 
 // nuxt/nuxt.js#8607

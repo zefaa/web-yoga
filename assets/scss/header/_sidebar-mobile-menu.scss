@@ -41,7 +41,7 @@
         transform: translateX(-100%);
         cursor: default;
         background-color: $secondary;
-        background-image: url("/images/bg/mobile-bg.jpg");
+        // background-image: url("/images/bg/mobile-bg.jpg");
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: top center;
@@ -67,7 +67,7 @@
             background: #030f27;
             padding: 0 15px 0 30px;
             .logo{
-                width: 155px;
+                max-width: 200px;
             }
             .mobile-close-btn{
                 cursor: pointer;

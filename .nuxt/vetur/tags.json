@@ -23,6 +23,18 @@
   "ShapeWithAnimation": {
     "description": "Auto imported from components/ShapeWithAnimation.vue"
   },
+  "TeamMember": {
+    "description": "Auto imported from components/TeamMember.vue"
+  },
+  "TeamOne": {
+    "description": "Auto imported from components/TeamOne.vue"
+  },
+  "TestimonialItem": {
+    "description": "Auto imported from components/TestimonialItem.vue"
+  },
+  "TestimonialSectionOne": {
+    "description": "Auto imported from components/TestimonialSectionOne.vue"
+  },
   "Unit": {
     "description": "Auto imported from components/Unit.vue"
   }

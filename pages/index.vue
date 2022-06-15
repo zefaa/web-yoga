@@ -85,14 +85,15 @@
               </div>
               <!-- Section Title Two End -->
 
-              <p>Yayasan Yohannes Gabriel Perwakilan 1
-                Surabaya adalah yayasan pendidikan yang mengelola
-                sekolah-sekolah Katolik di Keuskupan Surabaya. Kami terus
-                mengembangkan diri sesuai dengan gerak jaman agar dapat mendidik
-                generasi penerus dan masa depan gereja dan masyarakat. Melalui
-                media website berserta seluruh jejaring sosial yayasan, kami
-                juga berharap agar sekolah-sekolah kami makin dikenal sebagai
-                sekolah Katolik milik Keuskupan Surabaya yang dapat diandalkan.
+              <p>
+                Yayasan Yohannes Gabriel Perwakilan 1 Surabaya adalah yayasan
+                pendidikan yang mengelola sekolah-sekolah Katolik di Keuskupan
+                Surabaya. Kami terus mengembangkan diri sesuai dengan gerak
+                jaman agar dapat mendidik generasi penerus dan masa depan gereja
+                dan masyarakat. Melalui media website berserta seluruh jejaring
+                sosial yayasan, kami juga berharap agar sekolah-sekolah kami
+                makin dikenal sebagai sekolah Katolik milik Keuskupan Surabaya
+                yang dapat diandalkan.
               </p>
               <n-link
                 to="/about"
@@ -152,11 +153,16 @@
               <!-- Funfact Start -->
               <div class="col mt-40" data-aos="fade-up">
                 <div class="funfact">
-                  <div class="icon"><span class="fas fa-award" style="font-size:58px; color:white"></span></div>
-                  <h6 class="text" style="margin-top:15px">Terakreditasi</h6>
+                  <div class="icon">
+                    <span
+                      class="fas fa-award"
+                      style="font-size: 58px; color: white"
+                    ></span>
+                  </div>
+                  <h6 class="text" style="margin-top: 15px">Terakreditasi</h6>
                 </div>
               </div>
-           
+
               <!-- Funfact End -->
 
               <!-- Funfact Start -->
@@ -168,40 +174,20 @@
       </div>
     </div>
 
-    <div class="section-padding-t90-b100">
-      <div class="container">
-        <!-- Section Title Start -->
-        <SectionTitle
-          title="Berita"
-          sub-title="Berita Terkini Seputar Yayasan Yohannes Gabriel"
-        />
-        <!-- Section Title End -->
+    <!-- Achievements -->
+    <TeamOne />
 
-        <div
-          class="
-            row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1
-            mtn-60
-          "
-        >
-          <div
-            class="col mt-30"
-            v-for="(news, index) in newsData.slice(0, 3)"
-            :key="index"
-          >
-            <BlogGridItem :news="news" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <BrandLogoCarousel /> -->
-
-    <div class="section-padding" :style="{ backgroundColor: '#e9e9e9' }">
+    <!-- Events -->
+    <div
+      class="section-padding"
+      :style="{ backgroundImage: `url(${'/images/bg/bg-events.png'})` }"
+    >
       <div class="container">
         <SectionTitle
-          title="Agenda Kami"
+          title="Kegiatan Yayasan Yohannes Gabriel"
+          style="font-family: 'Font Awesome 5 Brands'; font-size: 3rem"
         />
-         <!-- sub-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." -->
+        <!-- sub-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." -->
         <div class="skill-with-video-content">
           <!-- Section Title Two Start -->
 
@@ -240,6 +226,39 @@
       </div>
     </div>
 
+    <!-- News -->
+    <div class="section-padding-t90-b100">
+      <div class="container">
+        <!-- Section Title Start -->
+        <SectionTitle
+          title="Berita"
+          sub-title="Berita Terkini Seputar Yayasan Yohannes Gabriel"
+        />
+        <!-- Section Title End -->
+
+        <div
+          class="
+            row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1
+            mtn-60
+          "
+        >
+          <div
+            class="col mt-30"
+            v-for="(news, index) in newsData.slice(0, 3)"
+            :key="index"
+          >
+            <BlogGridItem :news="news" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <BrandLogoCarousel /> -->
+
+    <!-- Testimoni -->
+    <TestimonialSectionOne />
+
+    <!-- Career -->
     <div class="section-padding">
       <div class="container">
         <div class="row align-items-center">
@@ -265,7 +284,8 @@
               <div class="section-title-two">
                 <h3 class="title">Berkarir Bersama Yayasan Yohannes Gabriel</h3>
                 <p>
-                  Bersama kita mewujudkan pribadi yang berintegritas dan berkarakter bagi gereja, bangsa, dan dunia.
+                  Bersama kita mewujudkan pribadi yang berintegritas dan
+                  berkarakter bagi gereja, bangsa, dan dunia.
                 </p>
               </div>
               <!-- Section Title Two End -->
@@ -293,7 +313,7 @@ export default {
       swiperOptions: {
         speed: 1000,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         spaceBetween: 30,
         navigation: {
           nextEl: ".swiper-button-next",
@@ -349,7 +369,8 @@ export default {
     BlogGridItem: () => import("@/components/BlogGridItem"),
     SectionTitle: () => import("@/components/SectionTitle"),
     ShapeWithAnimation: () => import("@/components/ShapeWithAnimation"),
-    // BrandLogoCarousel: () => import("@/components/BrandLogoCarousel"),
+    TestimonialSectionOne: () => import("@/components/TestimonialSectionOne"),
+    TeamOne: () => import("@/components/TeamOne"),
   },
 };
 </script>
