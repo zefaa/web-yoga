@@ -291,7 +291,7 @@
               <!-- Section Title Two End -->
 
               <n-link
-                to="/registration/employee"
+                to="/career"
                 class="btn btn-primary btn-hover-secondary"
               >
                 DAFTAR DISINI
