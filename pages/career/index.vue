@@ -114,6 +114,7 @@
                           :options="options"
                           class="mb-3"
                           size="lg"
+                          style="font-size: 1rem"
                         >
                           <!-- This slot appears above the options from 'options' prop -->
                           <template #first>
@@ -153,6 +154,7 @@
                           :options="options"
                           class="mb-3"
                           size="lg"
+                          style="font-size: 1rem"
                         >
                           <!-- This slot appears above the options from 'options' prop -->
                           <template #first>
@@ -209,6 +211,7 @@
                           :options="options"
                           class="mb-3"
                           size="lg"
+                          style="font-size: 1rem"
                         >
                           <!-- This slot appears above the options from 'options' prop -->
                           <template #first>
